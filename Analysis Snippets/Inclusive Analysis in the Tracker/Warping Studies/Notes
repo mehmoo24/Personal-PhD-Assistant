@@ -1,0 +1,7 @@
+-> The warping study smoothes out statistical fluctuations 
+-> For low statistical samples (ex. LE antineutrinos), the sample is well-behaved  and so we need fewer iterations
+-> This can be understood because the chi2 has the statistical uncertainty in the denominator and so a higher statistical uncertainty means that the chi2 is smaller
+
+FHC LE Warping Study
+-> Existing Problem: The number of iterations is too large and so the proposed solution was to find warps that are closer to the data/mc discrepancy
+-> Look at data/mc discrepancy, see how discrepant the most discrepant bins are, scale the ratio of the warp to Mnvtunev1 so that the most discrepant bin is only that much off
