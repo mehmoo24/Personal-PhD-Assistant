@@ -12,4 +12,7 @@ that the most discrepant bin is only that much off
 Plan of Action
 -> Get the FHC LE Data/MC Discrepancy plot for the cross section with 1 iteration
 -> Get the plots for the 3 warps: lowQ2PionSuppressionTuneON, NonResOFF, RPAOFF
--> 
+-> Get the ratio for the warped EffNum / original EffNum, if that ratio is not between 0.77 and 1.23
+(correspond to largest data/mc discrepancy) then change the warped EffNum and the warped signal events (which 
+need to be unfolded to give the warped efficiency numerator) change both those distributions to be 0.77 * original EffNum
+and 0.77 * original signal Events or 1.23 times both, whichever is closer to the existing ratio
