@@ -1,1 +1,6 @@
+If I have warped / effNum = 0.7 and I want to change it so that warped = 0.8 * effNum,
+Then I will set the uncertainty in that bin to be 0.8 * sigma_effNum
+And the bin content will of course be 0.8 * effNum
 
+This is because the fractional uncertainty gets perserved this way. Since we are applying a deterministic 
+scaling to the original, no new randomness or uncertainty is introduced beyong what's already in effNum
