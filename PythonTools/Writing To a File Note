@@ -1,0 +1,12 @@
+Always clone when writing a histogram from a file into another file. This is because if you write the histogram
+to another file and then close the first file, it causes a crash since the histogram is still associated with the 
+first file. Therefore, always clone it and write it to the second file so that if you close the first file, nothing 
+happens. 
+
+TLDR:
+-> Always .Clone() histograms before writing thme to another file or closing the source file
+-> Don't write a histogram to a different file unless it has been cloned
+
+Can also just clone the histograms when read them in:
+num_hist = f_num.Get("eff_num").Clone("eff_num_cloned")
+num_hist.SetDirectory(0)
