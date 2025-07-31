@@ -1,0 +1,19 @@
+There's nuFHC yes muon curvature cut, nuFHC no muon curvature cut for both p4 and p6
+All in here: /exp/minerva/data/users/mmehmood/default_anaysis_loc/P4vsP6/
+
+nuFHC yes muon curvature significance cut:
+P4: MnvTunev1_nuFHC_sys_nolownuParam_yesCurveCut_noMinosMatch_p4_me1A_rest
+P6: /exp/minerva/data/users/mmehmood/default_anaysis_loc/ME_nuFHC/nu_FHC_mnvtunev1_p6 (BASELINE)
+
+nuFHC no muon curvature significance cut:
+P4: MnvTunev1_nuFHC_sys_nolownuParam_noCurveCut_noMinosMatch_p4_me1A_rest
+P6: MnvTunev1_nuFHC_sys_nolownuParam_noCurveCut_noMinosMatch_p6
+
+antinuRHC no muon curvature significance cut:
+P4: MnvTunev1_antinuRHC_sys_nolownuParam_noCurveCut_noMinosMatch_p4_me6A_rest
+P6: MnvTunev1_antinuRHC_sys_nolownuParam_noCurveCut_noMinosMatch_p6
+
+antinuRHC yes muon curvature significance cut:
+P4: MnvTunev1_antinuRHC_sys_nolownuParam_yesCurveCut_noMinosMatch_p4_me6A_rest
+P6: /exp/minerva/data/users/mmehmood/default_anaysis_loc/ME_antinuRHC/antinu_RHC_mnvtunev1_p6 (BASELINE)
+
