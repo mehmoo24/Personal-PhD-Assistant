@@ -10,3 +10,7 @@ TLDR:
 Can also just clone the histograms when read them in:
 num_hist = f_num.Get("eff_num").Clone("eff_num_cloned")
 num_hist.SetDirectory(0)
+
+Also, always .Close() the output file that we created (don't close the other ones if there's multiple ones, 
+since sometimes the object doesn't detach from the file and then there's trouble accessing it if the file
+has been closed due to how the memory and the time the file is open are related ...)
