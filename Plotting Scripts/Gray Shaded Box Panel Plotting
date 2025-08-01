@@ -1,0 +1,17 @@
+For adding gray shaded box to panel plots:
+
+After rebinpz function gets called: (xMinBox, xMaxBox, yMinBox, yMaxBox correspond to the actual numbers on the plot)
+// --- Draw gray shading box until 10 GeV ---
+//double xMinBox = proj->GetXaxis()->GetXmin();
+     double xMinBox = 1.5;
+     double xMaxBox = std::min(10.0, proj->GetXaxis()->GetXmax());
+double yMinBox = proj->GetMinimum();
+double yMaxBox = proj->GetMaximum();
+
+//TBox* grayBox = new TBox(xMinBox, yMinBox, xMaxBox, yMaxBox);
+TBox* grayBox = new TBox(xMinBox, 0, xMaxBox, 4.5);
+//grayBox->SetFillColor(kGray);
+//grayBox->SetFillStyle(3001); // Semi-transparent
+grayBox->SetFillColorAlpha(kGray + 1, 0.2);
+grayBox->Draw("same");
+
