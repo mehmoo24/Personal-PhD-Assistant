@@ -1,0 +1,6 @@
+x1, y1, x2, y2 correspond to actual values on the plot
+
+grayBox = ROOT.TBox(0, 0.9, 10, 1.8)  # x1, y1, x2, y2
+grayBox.SetFillColor(ROOT.kGray + 2)  # Darker gray
+grayBox.SetFillStyle(3001)  # Semi-transparent
+grayBox.Draw("SAME")
