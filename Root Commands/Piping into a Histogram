@@ -1,0 +1,3 @@
+MasterAnaDev->Draw("1.0 / MasterAnaDev_minos_trk_eqp_qp >> h_invqp(100, -10, 10)");
+
+h_invqp(100, -10, 10) creates a histogram with 100 bins from -10 to 10.
