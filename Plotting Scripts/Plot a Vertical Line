@@ -1,0 +1,11 @@
+# The key is to use gPad.GetUymax() so that the height of the line matches the 
+# height of the plot
+
+xmin = gPad.GetUxmax() #force pad update
+gPad.Update()
+xval = 5.0
+line = TLine(xval, gPad.GetUymin(), xval, gPad.GetUymax())
+line.SetLineColor(ROOT.kGreen)
+line.SetLineStyle(2)  # dashed
+line.SetLineWidth(3)
+line.Draw("SAME")
