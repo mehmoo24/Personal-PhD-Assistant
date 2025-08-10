@@ -1,0 +1,12 @@
+# After drawing the mc histogram, change the axes to match the data endpoints
+
+
+mc.Draw("HIST")
+data.SetMarkerStyle(20)
+data.Draw("E SAME")
+
+gPad.Update()
+mc.GetYaxis().SetRangeUser(0,data.GetMaximum()+100)
+gPad.Modified()
+gPad.Update()
+
