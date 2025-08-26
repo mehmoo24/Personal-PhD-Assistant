@@ -1,1 +1,5 @@
+First Test: 9am - 11am
 
+--> Submit the jobs to the grid: 10 job submissions (only reco by curvature, only reco by range for 
+     antinuRHC p4, antinuRHC p6, nuFHC p4, nuFHC p6, nuFHC CCQENu)
+--> Implement the code for model comparisons done with the lownu flux parameterization put in
