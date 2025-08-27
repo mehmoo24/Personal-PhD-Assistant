@@ -1,0 +1,20 @@
+	1.	I worked on: ______
+	2.	Anchor I advanced today: ______
+	3.	Tomorrow I’ll start with: ______
+	4.	One sentence about today: ______
+
+ Deep work sessions: 2 hours, 10 mins maybe
+ 
+ I worked on making the plots for range and curvature and thought about them to look at 2 other things, 
+ I generated a framework for easy generation of model predictions from the flattrees
+ The lownu flux parameterization should be easily run when added to this
+ The script is currently running 18 flattree model predictions right now
+
+ The anchor I advanced today was trying to run over the lownu flux parameterization for the model predictions
+
+ Tomorrow I will start with implementing the lownu flux parameterization for the model predictions
+ Run the 12 predictions (not LE) at the end of the work session tomorrow so that it runs overnight
+
+ I feel relaxed
+
+ 
