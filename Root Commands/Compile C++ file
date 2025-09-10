@@ -1,0 +1,14 @@
+Can use ROOT to compile file instead of using a Makefile!
+
+
+root -l -b -q 'FluxCalculatorLoop.cxx++'
+
+	•	-l → no splash screen.
+	•	-b → batch mode (no graphics).
+	•	-q → quit when done.
+	•	cxx++ → compile and build a shared library.
+
+and then in the python file add:
+import ROOT
+ROOT.gSystem.Load("FluxCalculatorLoop_cxx.so")
+fcl = ROOT.FluxCalculatorLoop()
