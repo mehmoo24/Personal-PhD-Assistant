@@ -1,0 +1,10 @@
+[mmehmood@minervagpvm02 Wolcott_Flux]$ python -m tabnanny compute_flux.py
+compute_flux.py 222 '        print("Check1")\n'
+
+tabnanny is telling you exactly what I suspected: line 222 has mixed indentation.
+
+If you don’t want to chase this line-by-line:
+expand -t 4 compute_flux.py > compute_flux_fixed.py
+mv compute_flux_fixed.py compute_flux.py
+
+This replaces all tabs with 4 spaces across the entire file — after that, tabnanny will stop complaining.
