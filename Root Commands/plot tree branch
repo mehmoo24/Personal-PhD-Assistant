@@ -1,0 +1,3 @@
+auto tt = (TTree*)(gDirectory->Get("FlatTree_VARS"))
+tt->Draw("Enu_true")
+tt->Draw("Enu_true>>h(100,0,20)")
