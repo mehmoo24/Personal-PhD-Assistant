@@ -15,7 +15,16 @@ Deep Work Session #2: Worked on recapping what's going on with the LE Closure Te
     (yes MINOS match)
 --> 04. Closure Test on Local Computer
 
-Deep Work Session #3: Figure out how to submit jobs to grid w/ Quinn's prediction of the LE flux
+Deep Work Session #3: Ran some tests
+--> running genie prediction w/ signal defn excluding electron events
+--> running genie prediction w/ signal defn excluding electron events and using correct LE xsec spline
+--> checking that the GENIEXSec extractor tool only using 14 and -14 flux files, also appears to be like this in ME
+    --> Wondering what the electron neutrinos are doing then ... 
+--> submitted jobs to the grid for the case of determining just how many electron neutrino events we even have in LE?
+    --> The number of electron neutrinos appears to stay the same regardless of if put in 5 sigma curvature cut or not for 1 run
+        (curvature cut not being applied to range)
+
+TODO:  Figure out how to submit jobs to grid w/ Quinn's prediction of the LE flux
 
 Resources: 
 --> https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=33762&filename=NewFluxFit-20250721.pdf&version=3
