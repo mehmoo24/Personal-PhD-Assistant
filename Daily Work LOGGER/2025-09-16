@@ -13,6 +13,7 @@ Deep Work Session #2: Worked on recapping what's going on with the LE Closure Te
 --> Running prediction of genie xsec while removing the electron neutrinos
 --> Checked that we are getting the same answer for LE xsec w/ muon curvature sig cut on and off 
     (yes MINOS match)
+--> 04. Closure Test on Local Computer
 
 Deep Work Session #3: Figure out how to submit jobs to grid w/ Quinn's prediction of the LE flux
 
