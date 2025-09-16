@@ -8,7 +8,8 @@ Deep Work Session #2: Worked on recapping what's going on with the LE Closure Te
 --> The number of targets is tied into the flux and so what I did is I extracted my own LE xsec
     and then for the genie prediction, we used diff normalizations, corresponding to different  
     number of targets used in the flux 
-**   --> Need to double check how we get consistency w/ dividing out by same # of targets ...works for ME
+**   --> Need to double check how we get consistency w/ dividing out by same # of targets 
+         ...works for ME
 --> Running prediction of genie xsec while removing the electron neutrinos
 --> Checked that we are getting the same answer for LE xsec w/ muon curvature sig cut on and off 
     (yes MINOS match)
