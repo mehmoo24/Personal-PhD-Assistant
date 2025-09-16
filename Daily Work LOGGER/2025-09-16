@@ -1,9 +1,19 @@
 Deep Work Session #1: Work on Reweighting Model Predictions using lownu flux parameterizatin
 --> Retrieve the ratio of Rob's Flux to Zazueta Flux (w/ IMD)
-    * /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUXES
-    * 02. Model Comparisons on Local Computer
+    --> /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUXES
+    --> 02. Model Comparisons on Local Computer
 
---> Create timeline of the flux constraints
+Deep Work Session #2: Worked on recapping what's going on with the LE Closure Test
+--> 2.2 - 3.5% discrepant at the moment
+--> The number of targets is tied into the flux and so what I did is I extracted my own LE xsec
+    and then for the genie prediction, we used diff normalizations, corresponding to different  
+    number of targets used in the flux 
+**   --> Need to double check how we get consistency w/ dividing out by same # of targets ...works for ME
+--> Running prediction of genie xsec while removing the electron neutrinos
+--> Checked that we are getting the same answer for LE xsec w/ muon curvature sig cut on and off 
+    (yes MINOS match)
+
+Deep Work Session #3: Figure out how to submit jobs to grid w/ Quinn's prediction of the LE flux
 
 Resources: 
 --> https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=33762&filename=NewFluxFit-20250721.pdf&version=3
