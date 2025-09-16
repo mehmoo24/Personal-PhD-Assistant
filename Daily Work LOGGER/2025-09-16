@@ -2,3 +2,6 @@ Deep Work Session #1: Work on Reweighting Model Predictions using lownu flux par
 --> Retrieve the ratio of Rob's Flux to Zazueta Flux (w/ IMD)
     */exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUXES
 --> Create timeline of the flux constraints
+
+Resources: 
+--> https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=33762&filename=NewFluxFit-20250721.pdf&version=3
