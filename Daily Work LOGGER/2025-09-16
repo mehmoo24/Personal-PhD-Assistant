@@ -17,7 +17,7 @@ Deep Work Session #2: Worked on recapping what's going on with the LE Closure Te
 
 Deep Work Session #3: Ran some tests
 --> running genie prediction w/ signal defn excluding electron events
---> running genie prediction w/ signal defn excluding electron events and using correct LE xsec spline
+** --> running genie prediction w/ signal defn excluding electron events and using correct LE xsec spline
 --> checking that the GENIEXSec extractor tool only using 14 and -14 flux files, also appears to be like this in ME
     --> Wondering what the electron neutrinos are doing then ... 
 --> submitted jobs to the grid for the case of determining just how many electron neutrino events we even have in LE?
