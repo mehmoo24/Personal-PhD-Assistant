@@ -26,5 +26,11 @@ Deep Work Session #3: Ran some tests
 
 TODO:  Figure out how to submit jobs to grid w/ Quinn's prediction of the LE flux
 
+KEY POINTS: Pick up w/ comparing the ** file with my own extracted LE cross section that I'm doing the closure test for.
+            Please change back the changes in GENIEXSecExtractor to be v6 and change back the xsec spline. Then go over
+            to the other branch and double check that the xsec spline is ME since I think I have v6 on that branch, 
+            take a look! 
+
+
 Resources: 
 --> https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=33762&filename=NewFluxFit-20250721.pdf&version=3
