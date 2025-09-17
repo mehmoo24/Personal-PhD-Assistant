@@ -4,3 +4,9 @@ Deep Work #2: Probing Discrepancy on Efficiency Ratio Plot
 --> the script that I created today for some strange reason says that the ratio is 1, even though comparing
     it interactively to what's in the cross section extraction script it checks out
 *    --> but using the script I wrote today gives the difference to be a flat line --> there's something strange going on
+
+KEY POINTS: Figure out why the /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/SimpleComparison.py is giving
+            a flat ratio at 1 for the efficiency, even though when plot it out interactively that isn't how it is
+
+Deep Work #3: Resume the LE Closure Test Work
+
