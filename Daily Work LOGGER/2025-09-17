@@ -1,0 +1,6 @@
+Deep Work #1: Skipped
+
+Deep Work #2: Probing Discrepancy on Efficiency Ratio Plot
+--> the script that I created today for some strange reason says that the ratio is 1, even though comparing
+    it interactively to what's in the cross section extraction script it checks out
+*    --> but using the script I wrote today gives the difference to be a flat line --> there's something strange going on
