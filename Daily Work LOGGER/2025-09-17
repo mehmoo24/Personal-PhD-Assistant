@@ -9,4 +9,14 @@ KEY POINTS: Figure out why the /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-A
             a flat ratio at 1 for the efficiency, even though when plot it out interactively that isn't how it is
 
 Deep Work #3: Resume the LE Closure Test Work
+--> Summarized what the landscape looks like currently for LE Closure Testing by tying together all the loose ends
+    and where we stand currently:
+    --> The GENIE event rate and my efficiency denominator are consistent with each other
+    --> Changing the signal defn to exclude electron neutrino events causes the genie xsec prediction to stay the same?
+    --> The Medium Energy xsec spline is only changing the xsec prediction by 0.3%
+--> Found the fix to the bug from earlier!
 
+
+KEY POINTS: Please change back the changes in GENIEXSecExtractor to be v6 and change back the xsec spline. Then go over
+            to the other branch and double check that the xsec spline is ME since I think I have v6 on that branch, 
+            take a look! 
