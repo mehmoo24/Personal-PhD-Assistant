@@ -20,3 +20,7 @@ Deep Work #3: Resume the LE Closure Test Work
 KEY POINTS: Please change back the changes in GENIEXSecExtractor to be v6 and change back the xsec spline. Then go over
             to the other branch and double check that the xsec spline is ME since I think I have v6 on that branch, 
             take a look! 
+            Check-in w/ David about the MC comparisons, fix implemented for the bug today that was giving a flat line
+            Check Slack for the answer to the question about the flux used for the model predictions
+            Visit Notes from Meeting w/ Deborah today
+
