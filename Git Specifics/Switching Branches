@@ -1,0 +1,10 @@
+If you don't want to commit your changes yet, stash them before switching branches:
+
+[mmehmood@minervagpvm06 src]$ git stash
+Saved working directory and index state WIP on main: 857094e Merge pull request #1 from MinervaExpt/PlotUtilsChainWrapper
+[mmehmood@minervagpvm06 src]$ git branch
+  ReweightNeutrinoEnergy_XSecLooper
+* main
+[mmehmood@minervagpvm06 src]$ git checkout ReweightNeutrinoEnergy_XSecLooper
+Switched to branch 'ReweightNeutrinoEnergy_XSecLooper'
+[mmehmood@minervagpvm06 src]$ 
