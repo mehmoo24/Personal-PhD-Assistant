@@ -43,6 +43,16 @@ PICK UP HERE: The stored flux histogram apparently is TH1D m_fluxHist contains f
 --> We remove the POT Effect NOW? by dividing out [Figure out]
 --> LOOSE THREADS: The POT is baked into the flux? 
 
+Deep Work #3
+--> Thursday Meeting
+--> Area normalize the flux histograms and compare the flux from GENIE w/ the FRW flux
+    --> the shape isn't flat ...
+    --> for ME though the shape is even more OFF???
+    --> 2p2h in xsec spline, should it be there?
+    --> Part of the shape is flat though: from 20 to 100, besides the shape problem can integrate for these bounds
+        to see if still getting a normalization problem in the closure test
+
+
 
 KEY POINTS:
 --> Look at the files that I submitted to look at how many electron events are in the LE sample ...
@@ -51,6 +61,8 @@ KEY POINTS:
     see what I get if I use Quinn's existing flux instead --> also look at the systematics on that front)
 --> Email Rik about which model predictions to use/include 
 --> Change back GENIEXSecExtractor to v6 and ME spline
+--> Check what the LE flux is if keep the 2p2h events in the event rate?
+--> Revisit notes from Deep Work #3
 
 
 Questions to Probe
