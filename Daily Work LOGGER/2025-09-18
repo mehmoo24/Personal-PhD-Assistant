@@ -31,10 +31,18 @@ Summary So far: Central issue = POT normalization mismatch in LE closure test (M
                 GENIEXSecExtractor may be using an LE MC POT off by ~3%. Flux integral bounds = next suspect.
 
     --> Determine if the flux integral bounds are what are causing the problem
+
+        --> The bounds for the flux integral used are: 0 to 100 GeV
+
         --> Is the nue constraint turned on or off in the GenieXSecExtractor tool?
 
     --> Look at Amy's closure test?
     --> 
+
+PICK UP HERE: The stored flux histogram apparently is TH1D m_fluxHist contains flux*NC12*pot
+--> We remove the POT Effect NOW? by dividing out [Figure out]
+--> LOOSE THREADS: The POT is baked into the flux? 
+
 
 KEY POINTS:
 --> Look at the files that I submitted to look at how many electron events are in the LE sample ...
