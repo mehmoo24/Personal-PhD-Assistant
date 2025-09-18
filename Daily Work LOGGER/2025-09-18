@@ -3,9 +3,19 @@ Deep Work #1:
 --> Flat line problem from yesterday confirmed fixed, changed GENIEXSecExtractor, figuring out how to stash changes and switch 
     to other branch
 
+Deep Work #2:
+--> Work on the LE Closure Test:
+    --> Figure out if the POT count for the skipped file is causing the problem
+    --> Determine if the flux integral bounds are what are causing the problem
+    --> Look at Amy's closure test?
+    --> 
+
 KEY POINTS:
 --> Look at the files that I submitted to look at how many electron events are in the LE sample ...
 --> Notes from meeting with Deborah
+--> For the data bkg subtraction, need to have the electron neutrino flux files ... (can also use wgt of 1? compare and
+    see what I get if I use Quinn's existing flux instead --> also look at the systematics on that front)
+--> Email Rik about which model predictions to use/include 
 
 
 Questions to Probe
@@ -13,3 +23,4 @@ Questions to Probe
 --> Systematic uncertainties coming from the tuples, what Quinn said ...
 --> Not able to retrieve the correction that Rik was getting but maybe we leave that?
 --> Overview about this reweighting works exactly, Rob's flux is a measurement, doesn't include IMD (Anežka)
+
