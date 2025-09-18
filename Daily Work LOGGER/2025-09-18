@@ -27,8 +27,8 @@ Deep Work #2:
                         ** Change back the Closure_InputNorm.py !!! for mc histo name
                     --> Ok, to answer the question we get the same result as by data POT equiv and then divide out by data POT
 
-Summary So far: POT normalization is the central suspect, I think the LE MC POT that GENIEExtract is using is 3% different
-                from what it actually is?
+Summary So far: Central issue = POT normalization mismatch in LE closure test (MC POT vs Data POT). 
+                GENIEXSecExtractor may be using an LE MC POT off by ~3%. Flux integral bounds = next suspect.
 
     --> Determine if the flux integral bounds are what are causing the problem
         --> Is the nue constraint turned on or off in the GenieXSecExtractor tool?
