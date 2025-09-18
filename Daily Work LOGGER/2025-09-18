@@ -1,2 +1,11 @@
 Deep Work #1:
---> Recap on notes from yesterday, do the todo items from yesterday
+--> Recap on notes from yesterday, do the KEY POINTS todo items from yesterday
+--> Flat line problem from yesterday confirmed fixed, changed GENIEXSecExtractor, figuring out how to stash changes and switch 
+    to other branch
+
+
+Questions to Probe
+--> Valenic flux and IMD? 
+--> Systematic uncertainties coming from the tuples, what Quinn said ...
+--> Not able to retrieve the correction that Rik was getting but maybe we leave that?
+--> Overview about this reweighting works exactly, Rob's flux is a measurement, doesn't include IMD
