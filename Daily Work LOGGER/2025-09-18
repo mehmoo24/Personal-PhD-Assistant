@@ -6,6 +6,16 @@ Deep Work #1:
 Deep Work #2:
 --> Work on the LE Closure Test:
     --> Figure out if the POT count for the skipped file is causing the problem
+        --> I looked into the file and it is a null-ptr, want to change GENIE_xsec_extractor to write the POT to the output
+            file so that we can compare it
+            --> Is GENIEXSecExtractor even dividing out by the POT? (But then how did the ME closure test pass?)
+                --> Compare the Genie event rate both w/ and w/o POT normalizing the eff den
+                    --> The ratio is around 1 for NOT POT Normalizing the eff den
+                    --> For low pT not getting the ratio varying by a lot from 1 anymore ... don't know how that got fixed
+
+                --> Does my xsec extraction script divide out the MC xsec by the MC POT or the data POT?
+                  
+
     --> Determine if the flux integral bounds are what are causing the problem
     --> Look at Amy's closure test?
     --> 
@@ -16,6 +26,7 @@ KEY POINTS:
 --> For the data bkg subtraction, need to have the electron neutrino flux files ... (can also use wgt of 1? compare and
     see what I get if I use Quinn's existing flux instead --> also look at the systematics on that front)
 --> Email Rik about which model predictions to use/include 
+--> Change back GENIEXSecExtractor to v6 and ME spline
 
 
 Questions to Probe
