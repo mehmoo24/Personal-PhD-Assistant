@@ -43,6 +43,10 @@ PICK UP HERE: The stored flux histogram apparently is TH1D m_fluxHist contains f
 --> We remove the POT Effect NOW? by dividing out [Figure out]
 --> LOOSE THREADS: The POT is baked into the flux? 
 
+MINERvA Meeting
+--> MINERvA uses data to constrain the background and not just the mc model, that's important
+
+
 Deep Work #3
 --> Thursday Meeting
 --> Area normalize the flux histograms and compare the flux from GENIE w/ the FRW flux
@@ -52,6 +56,14 @@ Deep Work #3
     --> Part of the shape is flat though: from 20 to 100, besides the shape problem can integrate for these bounds
         to see if still getting a normalization problem in the closure test
 
+York Neutrino Group Meeting
+--> Even for different binnings, the per GeV shape should be the same for the two, so plot both the distributions side by side
+    --> Think there are more problems with the plot that I showed for the area norm. ratios of the flux distributions b/c
+        did I use the bin centres to rebin or the bin edges? and so then what does the ratio after rebinning mean?
+--> Always when show a ratio need the numerator and denominator also in the slides
+--> Why are we integrating from 0 to 100 instead of 1.5 to 100 for neutrino energy? Hard enough to reconstruct muons down there,
+    nevertheless neutrinos
+--> Investigate the shape problem and normalization problem more after the 
 
 
 KEY POINTS:
