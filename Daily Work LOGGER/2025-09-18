@@ -9,14 +9,30 @@ Deep Work #2:
         --> I looked into the file and it is a null-ptr, want to change GENIE_xsec_extractor to write the POT to the output
             file so that we can compare it
             --> Is GENIEXSecExtractor even dividing out by the POT? (But then how did the ME closure test pass?)
+                ** --> Investigate above
+
                 --> Compare the Genie event rate both w/ and w/o POT normalizing the eff den
                     --> The ratio is around 1 for NOT POT Normalizing the eff den
                     --> For low pT not getting the ratio varying by a lot from 1 anymore ... don't know how that got fixed
 
                 --> Does my xsec extraction script divide out the MC xsec by the MC POT or the data POT?
-                  
+                    --> The mc cross section is getting normalized by the data POT!!! That's b/c first we made it data POT
+                        equivalent and so then divided by the data POT
+                    --> IF we divide out by the data POT then the ratio is off by a factor of ~10 (makes sense b/c
+                        generated 10x more stats as the data in LE)
+
+                --> What if we don't POT normalize the histograms and divide out by the MC POT?
+                    --> Weird thing: we're getting the same thing if we normalize by MC POT or by 1?
+                        --> Because I'm modifying simCrossSection histo now and the closure test uses the other mc xsec one!
+                        ** Change back the Closure_InputNorm.py !!! for mc histo name
+                    --> Ok, to answer the question we get the same result as by data POT equiv and then divide out by data POT
+
+Summary So far: POT normalization is the central suspect, I think the LE MC POT that GENIEExtract is using is 3% different
+                from what it actually is?
 
     --> Determine if the flux integral bounds are what are causing the problem
+        --> Is the nue constraint turned on or off in the GenieXSecExtractor tool?
+
     --> Look at Amy's closure test?
     --> 
 
