@@ -1,0 +1,11 @@
+Deep Work Session 1: Continued Working on LE Closure Test
+--> Remade the distributions that plot the FRW Flux and the GENIEXSecExtracto flux side by side since the binnning is diff
+    (Plotting the 2 area normalized side by side)
+--> The shapes of the flux distributions seem to be consistent with each other
+--> I think putting back in the 2p2h events fixes this problem?
+    --> But 2p2h events not in the ME xsec spline (weren't even there for the daisy reweighting procedure)
+--> Only smoking gun left after this is the POT in the normalization
+
+KEY POINTS: Visit Notes from 2025-09-17
+TODO: --> Put back in the 2p2h events for the genie LE xsec spline in GENIEXSecExtractor, also currently the GENIEXSecExtractor
+          is running in LE mode w/ the 
