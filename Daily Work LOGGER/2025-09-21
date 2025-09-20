@@ -1,0 +1,7 @@
+Deep Work Block #1:
+--> Closure Test: Go and see if putting back in the 2p2h events fixed the closure problem, take a look at the POT again
+--> m_fluxHist: flux * NC12 * pot (For the flux we have the nue constraint turned ON)
+    --> Flux integrated xsec, say in Q^2, is N(Q^2) / [ numTargets * pot * fluxIntegral * binWidth ]
+    --> "We just need to scale by the ratio of the numTargets to the num of C12, the flux histogram integral & 
+         the bin width"
+--> Create summary table of LE Closure Test Finds so far
