@@ -1,3 +1,5 @@
 To run in LE:
 --> Change the versions to v5 instead of v6
 --> Change the GENIE xsec spline!
+
+--> Maybe need the 2p2h events in there for the xsec spline in LE? I know that we shouldn't have them there for ME
