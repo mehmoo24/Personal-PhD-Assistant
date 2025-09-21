@@ -9,3 +9,6 @@ Deep Work Block #1:
 
 KEY POINT: GenieXSecExtractor running w/ 2p2h events put back in, version changed to v5, and the genie xsec spline
            changed
+
+TODO : --> revert change: changed to minerva7 in rootfile name, and in the playlist name, and the tuples being read in 
+           in runXSecLooperTracker_LE.cxx 
