@@ -1,0 +1,10 @@
+Deep Work #1
+LE Closure Test Findings
+--> Putting back in the 2p2h events in GENIEXSecExtractor to be divided out by xsec spline seems to have 
+    changed nothing
+--> Turning off muon correlations in cross section extraction script changes nothing for LE Closure
+--> Turning off nue constraint in just the cross section extraction script messes it all up
+--> Went through previous notes and saw that if we have nue turned on in all 3 places, or nue turned off in all 
+    three places (event selection, xsec extraction, GENIEExtractor) we get the same 3% difference
+--> Running w/ the minerva7 gave an enum error
+--> Going to look into it being a POT problem again?
