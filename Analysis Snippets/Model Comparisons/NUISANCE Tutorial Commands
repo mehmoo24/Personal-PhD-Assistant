@@ -1,0 +1,3 @@
+Tutorial: https://github.com/NUISANCEMC/tutorials/blob/main/interactive/README.md
+
+singularity exec nuisance_nuint2024.sif /bin/bash generation_NUWRO_example.sh
