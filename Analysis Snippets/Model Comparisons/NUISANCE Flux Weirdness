@@ -39,3 +39,16 @@ NUISANCE scaled LE flux:
 FOLLOW UP: Does it matter if we feed it in per 10^6 POT or per POT and per GeV or per 0.5 GeV?
 FOLLOW UP: The FRW flux is labelled per GeV but is it really that since the binning is finer than per GeV?
 
+
+* I ran with the tutorial nuFHC LE flux and then I ran with my own nuFHC LE flux, then I processed the Flattree
+for my own I get: 
+root [3] ptpz->Print()
+TH1.Print Name  = ptpz, Entries= 41975, Total sum= 1.29482e-38
+
+for the tutorial I get:
+root [5] ptpz->Print()
+TH1.Print Name  = ptpz, Entries= 46572, Total sum= 1.75499e-38
+
+* We need to double check the impact of scaling
+If I scale my flux histogram by 1e+6 vs I don't scale it by anything, does my xsec prediction change?
+
