@@ -1,0 +1,10 @@
+To see the cards that we modify or create on the host machine inside the container, need to bind it:
+[mmehmood@minervagpvm01 interactive]$ singularity exec --bind /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/
+                                      NUISANCE_TUTORIAL/nuisance_tutorials/interactive:/interactive nuisance_nuint2024.sif /bin/bash
+...broke the path there to fit on next line
+
+Can fix this problem: Error in <TFile::TFile>: file /interactive/MC_inputs/MC_inputs/FRW_flux_LE.root does not exist
+Flux histogram ROOT file '${PWD}/MC_inputs/FRW_flux_LE.root' does not exist!
+
+by using the absolute path inside the container:
+EVCT-FILENM  '/interactive/MC_inputs/FRW_flux_LE.root'
