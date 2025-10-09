@@ -21,3 +21,26 @@ qel_rpa   = 0      # RPA off when using SF
 You’re seeing “LFG RPA” because your card has
 sf_method = 0     # <- OFF
 qel_rpa   = 1     # <- RPA ON (applies to the LFG QE model)
+
+
+FOR NEUT MODEL PREDICTIONS
+In the container:
+Apptainer> pwd
+/interactive/MC_inputs
+
+Can actually see the models being run with this command:
+Apptainer> neutroot2 MINERvA_LE_numu_NEUT.card -o test.root -n 1000
+
+## QEL
+NEUT-MODE   0
+NEUT-MDLQE  2002
+NEUT-MAQE   1.05
+That’s the LFG + RPA configuration. (coming from the sample card already)
+
+Replace those lines with (ChatGPT):
+# --- CCQE (Spectral Function / Benhar) ---
+NEUT-MDLQE 402        # Benhar spectral function model
+NEUT-MAQE 1.21        # axial mass used for SF
+NEUT-MDL2P2H 1        # use 2p2h hadronic tensor (optional but recommended)
+(The value 402 is defined in NEUT’s internal model table as “Benhar SF – Smith–Moniz FF.” 
+1.21 GeV is the MAQE used in the ND280 / T2K SF tuning card.)
