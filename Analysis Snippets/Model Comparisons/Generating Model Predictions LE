@@ -1,3 +1,11 @@
 For generating the model predictions, I wrote the LE flux with the stat error to a root file to pass into the container
 
 --> I changed the flux histogram name and the PDG for running in neutrino mode vs antineutrino mode
+
+Checklist for changing cards:
+1. Change flux file
+2. Change flux histo name
+3. Change PDG
+4. Change the options for which model to use
+5. Change the number of events running over
+6. Change name of output file
