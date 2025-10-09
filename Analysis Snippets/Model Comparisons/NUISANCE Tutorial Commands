@@ -5,3 +5,6 @@ export PATH=/cvmfs/oasis.opensciencegrid.org/mis/singularity/bin:$PATH
 export SINGULARITY_CACHEDIR=/exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/nuisance_tutorials/interactive/
 
 singularity exec nuisance_nuint2024.sif /bin/bash generation_NUWRO_example.sh
+
+To just access container:
+singularity exec nuisance_nuint2024.sif /bin/bash
