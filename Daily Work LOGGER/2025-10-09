@@ -8,3 +8,8 @@ Deep Work #1: 11am - 1pm
 export PATH=/cvmfs/oasis.opensciencegrid.org/mis/singularity/bin:$PATH
 export SINGULARITY_CACHEDIR=/exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/nuisance_tutorials/interactive/
 
+Todo: Check the impact that scaling the flux prediction has on the cross section prediction ...
+also, using the LE Nuisance Tutorial flux yields quite the difference in the cross section ...
+
+Currently, ran all model predictions with the FRW flux (per GeV and per POT)
+
