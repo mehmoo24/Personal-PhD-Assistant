@@ -1,0 +1,2 @@
+For bin width normalization, if divide out by the bin width  it becomes per GeV
+If it's something like per 0.5 GeV, that's not bin width normalized even if the bins are 0.5 GeV width
