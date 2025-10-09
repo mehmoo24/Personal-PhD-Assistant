@@ -7,6 +7,32 @@ root [4] numu_fhc->Scale(2e-6)
 so that it would be per POT and per GeV (it's per 0.5 GeV since that's the uniform binning it uses, the FRW flux
                                         uses non-uniform binning)
 
+FRW flux:
+ fSumw[0]=0, x=-1.31579, error=0
+ fSumw[1]=8.39095e-06, x=0.25, error=2.34596e-07
+ fSumw[2]=1.37542e-05, x=0.75, error=1.26789e-07
+ fSumw[3]=3.4679e-05, x=1.25, error=1.58028e-07
+ fSumw[4]=5.05009e-05, x=1.75, error=1.63918e-07
+ fSumw[5]=6.66073e-05, x=2.25, error=1.69198e-07
+ fSumw[6]=8.17457e-05, x=2.75, error=1.72306e-07
+ fSumw[7]=8.5619e-05, x=3.25, error=1.62873e-07
+ fSumw[8]=6.84943e-05, x=3.75, error=1.35857e-07
+ fSumw[9]=4.08878e-05, x=4.25, error=9.68997e-08
+ fSumw[10]=2.2149e-05, x=4.75, error=6.64225e-08
+
+NUISANCE scaled LE flux:
+ fSumw[0]=0, x=-0.25, error=0
+ fSumw[1]=5.14536e-06, x=0.25, error=7.01904e-07
+ fSumw[2]=1.30642e-05, x=0.75, error=1.34688e-06
+ fSumw[3]=3.39442e-05, x=1.25, error=2.5483e-06
+ fSumw[4]=5.02906e-05, x=1.75, error=3.59386e-06
+ fSumw[5]=6.6247e-05, x=2.25, error=4.84222e-06
+ fSumw[6]=8.14638e-05, x=2.75, error=5.69066e-06
+ fSumw[7]=8.55222e-05, x=3.25, error=5.41826e-06
+ fSumw[8]=6.83908e-05, x=3.75, error=4.4573e-06
+ fSumw[9]=4.08172e-05, x=4.25, error=3.53326e-06
+ fSumw[10]=2.21192e-05, x=4.75, error=2.17548e-06
+
 * The errors are not matching up either, I think the FRW is not using stats only, which is what Anezka said to use
 
 * For the meantime, I'm using the FRW flux with the stat error and feeding that into the NUISANCE tutorial
