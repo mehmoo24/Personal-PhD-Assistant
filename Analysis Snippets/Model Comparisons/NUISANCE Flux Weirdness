@@ -2,9 +2,14 @@
 --> I scaled the FRW by: 
 frw_flux.Scale(1e+6)
 frw_flux.Scale(0.5)
+Instead then I scaled the NUISANCE flux by 
+root [4] numu_fhc->Scale(2e-6)
+so that it would be per POT and per GeV (it's per 0.5 GeV since that's the uniform binning it uses, the FRW flux
+                                        uses non-uniform binning)
 
 * The errors are not matching up either, I think the FRW is not using stats only, which is what Anezka said to use
 
 * For the meantime, I'm using the FRW flux with the stat error and feeding that into the NUISANCE tutorial
 FOLLOW UP: Does it matter if we feed it in per 10^6 POT or per POT and per GeV or per 0.5 GeV?
 FOLLOW UP: The FRW flux is labelled per GeV but is it really that since the binning is finer than per GeV?
+
