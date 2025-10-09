@@ -9,3 +9,4 @@ Checklist for changing cards:
 4. Change the options for which model to use
 5. Change the number of events running over
 6. Change name of output file
+7. Change name of input card being read in (if there is an input card, like for NuWro)
