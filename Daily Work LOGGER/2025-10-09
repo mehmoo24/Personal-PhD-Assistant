@@ -1,0 +1,10 @@
+NUISANCE Tutorial: https://github.com/NUISANCEMC/tutorials/blob/main/interactive/README.md
+
+Deep Work #1: 11am - 1pm
+
+--> Determine if the MINERvA LE flux file in NUISANCE tutorial really isn't the same as what is in FRW
+
+--> Commands to be able to run the container: 
+export PATH=/cvmfs/oasis.opensciencegrid.org/mis/singularity/bin:$PATH
+export SINGULARITY_CACHEDIR=/exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/nuisance_tutorials/interactive/
+
