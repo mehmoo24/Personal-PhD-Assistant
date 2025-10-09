@@ -1,0 +1,4 @@
+[mmehmood@minervagpvm06 ProcessFlatTrees]$ python GenerateModelPrediction.py 14 13 
+/exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/NUISANCE_TUTORIAL/nuisance_tutorials/interactive/MC_outputs/
+NUWRO_LFGRPA_MINERvA_LE_FHC_numu.root tutorialFlux.root 0
+
