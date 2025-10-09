@@ -10,3 +10,14 @@ Checklist for changing cards:
 5. Change the number of events running over
 6. Change name of output file
 7. Change name of input card being read in (if there is an input card, like for NuWro)
+
+ChatGPT:
+Use one of NuWro’s SF switches and turn off RPA (RPA is a long-range correlation correction designed for FG/LFG; 
+you generally don’t stack it on SF):
+# --- QE model choices ---
+sf_method = 1      # 1 = grid SF (Benhar tables)  (use 2 = factorized SF if you prefer)
+qel_rpa   = 0      # RPA off when using SF
+
+You’re seeing “LFG RPA” because your card has
+sf_method = 0     # <- OFF
+qel_rpa   = 1     # <- RPA ON (applies to the LFG QE model)
