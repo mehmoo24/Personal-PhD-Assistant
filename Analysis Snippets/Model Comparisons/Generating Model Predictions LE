@@ -1,0 +1,3 @@
+For generating the model predictions, I wrote the LE flux with the stat error to a root file to pass into the container
+
+--> I changed the flux histogram name and the PDG for running in neutrino mode vs antineutrino mode
