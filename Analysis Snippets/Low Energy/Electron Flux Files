@@ -1,0 +1,26 @@
+Quinn has the electron flux files here: 
+/exp/minerva/app/users/qvuong/MAT_AL9/CC-NuE-XSec/flux_studies/
+
+Quinn verbatim:
+Anw you can find the fluxes here: /exp/minerva/app/users/qvuong/MAT_AL9/CC-NuE-XSec/flux_studies/
+The ones I generated are messy because I was diagnosing, but basically the KEY: PlotUtils::MnvH1D	flux_E_cvweighted should 
+give you the same flux as the existing one. The flux systematics are also in there. Because 
+these are generated from analysis tuples which only contain 100 flux universes, the output fluxes can 
+only have that many universes.
+
+She has:
+le1_e.root
+le1_ebar.root
+le5_ebar.root
+MISSING: le5_e.root
+
+PATHS: 
+/exp/minerva/app/users/qvuong/MAT_AL9/CC-NuE-XSec/flux_studies/le1_ebar.root
+/exp/minerva/app/users/qvuong/MAT_AL9/CC-NuE-XSec/flux_studies/le1_e.root
+/exp/minerva/app/users/qvuong/MAT_AL9/CC-NuE-XSec/flux_studies/le5_ebar.root
+
+Now, I need to modify my function, so that for reading in the electron flux, it uses these flux files
+
+
+INSTEAD WHAT I'M DOING: 
+FOR THE CASE OF ELECTRON NEUTRINOS, JUST USE A WEIGHT OF 1 FOR THE FLUX
