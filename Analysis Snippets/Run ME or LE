@@ -1,0 +1,10 @@
+For Running ME:
+--> Change the flux to be lownu flux param
+--> Make sure MnvHadronReweighter.cxx has the playlist name commented out
+--> In GlobalIncludes change the boolean
+
+
+For Running LE:
+--> Change the flux to be 1 for electron neutrinos or antineutrinos
+--> In MnvHadronReweighter.cxx change the playlist name to be ME1A or ME6A
+--> In GlobalIncludes change the boolean
