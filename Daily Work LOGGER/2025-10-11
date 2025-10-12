@@ -2,3 +2,9 @@ Block #1:
 
 1. Figuring out LE flux files to use for electron neutrinos
 --> Quinn's files have the flux + 100 systematic flux universes
+--> Me: Just using a weight of 1
+
+2. run1.sh and run3.sh being run again
+
+3. running neutrino LE and antineutrino LE predictions again for closure test with binning that matches 
+   what I have for the flux
