@@ -7,4 +7,4 @@ Block #1:
 2. run1.sh and run3.sh being run again
 
 3. running neutrino LE and antineutrino LE predictions again for closure test with binning that matches 
-   what I have for the flux
+   what I have for the flux on gpvm04 in screen
