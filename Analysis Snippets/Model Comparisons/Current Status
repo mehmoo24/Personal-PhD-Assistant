@@ -2,3 +2,6 @@ October 18
 --> Changed the file to be using the minerva LE root file
 --> re-running antineutrino LE LFG NUWRO
 --> re-running neutrino LE LFG NUWRO
+
+--> make sure to change up the root file to be using the minerva LE root file when run the rest
+    of the model predictions
