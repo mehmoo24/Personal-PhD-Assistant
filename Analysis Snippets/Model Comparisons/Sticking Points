@@ -1,2 +1,5 @@
 The hydrocarbon density used ... can be double checked
 Some errors in neut and nuwro thought they don't appear to disrupt what is going on ... asked Clarence
+
+When I used the LE flux from FRW, I don't know why I get such weird results, but when I use Dan's
+predictions, those seem to work just find for neutrino LE
