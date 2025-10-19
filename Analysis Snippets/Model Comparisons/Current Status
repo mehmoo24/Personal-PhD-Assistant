@@ -23,3 +23,5 @@ THINGS TO BE AWARE OF
 --> changed the flux files being read in for the antineutrino LE generation predictions
 --> only changed the flux file to be the minerva one for the nuwro LFG neutrino one and
     not for the other ones
+
+--> for ME used the predictions that were already available in the MAT
