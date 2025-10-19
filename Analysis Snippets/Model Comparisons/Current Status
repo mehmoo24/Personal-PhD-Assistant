@@ -17,3 +17,9 @@ TODO
 
 --> need to generate the neutrino LE predictions because just used Dan's predictions so far
 --> need to generate the AR23 prediction to the plots by generating it
+
+
+THINGS TO BE AWARE OF
+--> changed the flux files being read in for the antineutrino LE generation predictions
+--> only changed the flux file to be the minerva one for the nuwro LFG neutrino one and
+    not for the other ones
