@@ -5,3 +5,15 @@ October 18
 
 --> make sure to change up the root file to be using the minerva LE root file when run the rest
     of the model predictions
+
+--> For the nuFHC LE, I used the predictions that Dan created, need to generate them again with the 
+    FRW flux 
+    --> need to change the flux file being read in ..?
+
+TODO
+--> for the LE model predictions, need to generate them again because this time was using the 
+    minerva_le root file, need to generate them again with the FRW LE flux prediction but with 
+    the normalization units matching what is in the minerva_le root file, I think that should work
+
+--> need to generate the neutrino LE predictions because just used Dan's predictions so far
+--> need to generate the AR23 prediction to the plots by generating it
