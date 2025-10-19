@@ -16,6 +16,7 @@ TODO
     the normalization units matching what is in the minerva_le root file, I think that should work
 
 --> need to generate the neutrino LE predictions because just used Dan's predictions so far
+ 
 --> need to generate the AR23 prediction to the plots by generating it
 
 
@@ -25,3 +26,6 @@ THINGS TO BE AWARE OF
     not for the other ones
 
 --> for ME used the predictions that were already available in the MAT
+    --> reweighted them to be lownu flux parameterization but didn't weight out by the ratio of the
+        integrals yet
+    --> need to generate the AR23 model predictions
