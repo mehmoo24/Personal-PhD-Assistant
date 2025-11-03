@@ -1,0 +1,12 @@
+October 30, 2025
+--> Made plots of the different correlations
+--> Observed: no correlation between ME and LE fluxes, that is likely due to the ordering of the flux universes being diff
+
+--> the LE flux universes are currently 100, don't know if 1000 ever generated? asked on slack
+--> the ME flux universes are 1000 but have been re-ordered
+
+
+TODO List:
+--> make the ME plots with 1000 universes
+--> see if can make the ME plots with the unordered 1000 universes?
+--> determine where the LE universese are, if ever there were 1000
