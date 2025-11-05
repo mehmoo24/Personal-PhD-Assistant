@@ -7,9 +7,21 @@ October 30, 2025
 
 November 5, 2025
 --> ME and LE Flux landscape scan
-
+--> According to Rob Fine, flux slack channel, MINERvA chat: Jaewon was working with 1000 LE flux
+    universes for the nu-e constraint analysis, looks like he had flux weights for all those
+    universes baked directly into his analysis ntuples
+--> Don't know if we have the same 1000 universes for ME and for LE (Rob doesn't remember investigating, 
+    though the question came up when he was writing his thesis)
+--> Laura email, October 27, 2025: says PPFX makes central value weights for each event during anatuple 
+    production
+--> 1000 hadron production universe weights are also made using PPFX
+--> 
+--> NuE scattering + IMD weights constructed for each universe (Laura not sure if this is 
+    anatuple production or flux histograms)
 
 TODO List:
---> make the ME plots with 1000 universes
---> see if can make the ME plots with the unordered 1000 universes?
---> determine where the LE universese are, if ever there were 1000
+--> make the ME plots with 1000 universes ordered
+--> make the ME plots with 1000 universes unordered
+--> see if can make the ME plots with the unordered 1000 universes? 
+--> determine where the LE universese are, if ever there were 1000 RESOLVED (answer above)
+--> make a plot with the 100 LE universes and the first 100 from the unordered first 100 ME universes
