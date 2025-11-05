@@ -11,6 +11,8 @@ November 5, 2025
     universes for the nu-e constraint analysis, looks like he had flux weights for all those
     universes baked directly into his analysis ntuples
     --> Rob thinks Jaewon's work predated a standard tool to pull the flux weights at analysis time
+        --> It's possible that when FRW was developed his code was used, but for whatever reason the norm of using
+            only 100 flux universes was established?
 --> Don't know if we have the same 1000 universes for ME and for LE (Rob doesn't remember investigating, 
     though the question came up when he was writing his thesis)
 --> Laura email, October 27, 2025: says PPFX makes central value weights for each event during anatuple 
