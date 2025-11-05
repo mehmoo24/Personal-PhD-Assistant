@@ -10,6 +10,7 @@ November 5, 2025
 --> According to Rob Fine, flux slack channel, MINERvA chat: Jaewon was working with 1000 LE flux
     universes for the nu-e constraint analysis, looks like he had flux weights for all those
     universes baked directly into his analysis ntuples
+    --> Rob thinks Jaewon's work predated a standard tool to pull the flux weights at analysis time
 --> Don't know if we have the same 1000 universes for ME and for LE (Rob doesn't remember investigating, 
     though the question came up when he was writing his thesis)
 --> Laura email, October 27, 2025: says PPFX makes central value weights for each event during anatuple 
@@ -23,5 +24,10 @@ TODO List:
 --> make the ME plots with 1000 universes ordered
 --> make the ME plots with 1000 universes unordered
 --> make a plot with the 100 LE universes and the first 100 from the unordered first 100 ME universes
+
+--> What's the standard tool that Rob mentions which can pull the flux weights at analysis time? I think David'
+    question in the email thread will potentially answer this. I ask because if the flux weights are produced
+    at AnaTuple production level then this tool is using the Anatuples that we ran on to pull the flux weights? 
+    But how does the tool know which AnaTuples we ran on?
 --> determine where the LE universese are, if ever there were 1000 RESOLVED (answer above)
 
