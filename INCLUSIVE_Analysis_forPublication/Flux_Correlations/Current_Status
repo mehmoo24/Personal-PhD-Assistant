@@ -6,26 +6,37 @@ October 30, 2025
 --> the ME flux universes are 1000 but have been re-ordered
 
 November 5, 2025
---> ME and LE Flux landscape scan
+ME and LE Flux landscape scan
 --> According to Rob Fine, flux slack channel, MINERvA chat: Jaewon was working with 1000 LE flux
     universes for the nu-e constraint analysis, looks like he had flux weights for all those
     universes baked directly into his analysis ntuples
     --> Rob thinks Jaewon's work predated a standard tool to pull the flux weights at analysis time
         --> It's possible that when FRW was developed his code was used, but for whatever reason the norm of using
             only 100 flux universes was established?
---> Don't know if we have the same 1000 universes for ME and for LE (Rob doesn't remember investigating, 
+    --> Don't know if we have the same 1000 universes for ME and for LE (Rob doesn't remember investigating, 
     though the question came up when he was writing his thesis)
 --> Laura email, October 27, 2025: says PPFX makes central value weights for each event during anatuple 
     production
---> 1000 hadron production universe weights are also made using PPFX
---> 
---> NuE scattering + IMD weights constructed for each universe (Laura not sure if this is 
-    anatuple production or flux histograms)
+    --> 1000 hadron production universe weights are also made using PPFX
+    --> 1000 (?) flux focusing weights also made
+    --> After anatuple production, a script is run that constructs a central value flux for each neutrino flavour and
+        configuration + 1000 combined uncertainty universes (obtained by multipying the hadron production and focusing wgts)
+    --> NuE scattering + IMD weights constructed for each of the combined flux universes (Laura not sure if this is anatuple 
+        production or flux histograms)
+    --> Another script reorders the universes from 2 steps ago according to the size of the NuE scattering + IMD wgts
+    --> The reordered flux MnvH1Ds + reordered NuE scattering weights are used by FluxReweighter to provide CV and flux 
+        universe weights to analyzers
+        --> At this point, weights are only a function of neutrino energy, not the entire neutrino flux ancestry
 
 TODO List:
 --> make the ME plots with 1000 universes ordered
 --> make the ME plots with 1000 universes unordered
 --> make a plot with the 100 LE universes and the first 100 from the unordered first 100 ME universes
+
+--> Find and look  into Jaewon Park's thesis to see if I can pull up the 1000 universes that he had, though
+    his anatuples were different? Rob makes a comment at being able to access it: Here's the code where the 
+    distributions in fig 8 of the paper are produced, I think: https://cdcvs-el9-prod.fnal.gov/cgi-bin/public-cvs/cvsweb-public.cgi/AnalysisFramework/A[…]E/ana/make_hists/NuEHists_nue_wgt.cxx?cvsroot=mnvsoft;f=h (revision 1.10 looks to be the version contemporaneous with the LE paper)
+--> Find and look into this paper that's being mentioned
 
 --> What's the standard tool that Rob mentions which can pull the flux weights at analysis time? I think David'
     question in the email thread will potentially answer this. I ask because if the flux weights are produced
