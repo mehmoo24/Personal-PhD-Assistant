@@ -29,8 +29,8 @@ ME and LE Flux landscape scan
         --> At this point, weights are only a function of neutrino energy, not the entire neutrino flux ancestry
 
 TODO List:
---> make the ME plots with 1000 universes ordered
---> make the ME plots with 1000 universes unordered
+--> make the ME plots with 1000 universes ordered, NuE constraint turned on, NuE constraint turned off
+--> make the ME plots with 1000 universes unordered, NuE constraint turned on, NuE constraint turned off
 --> make a plot with the 100 LE universes and the first 100 from the unordered first 100 ME universes
 
 --> Find and look  into Jaewon Park's thesis to see if I can pull up the 1000 universes that he had, though
