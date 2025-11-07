@@ -79,3 +79,10 @@ November 7, 2025
 --> But we need to run over the options again, this time put in LE for no lownu flux param. and also, for faster running
     just keep the muon reconstruction systematic error band turned on
 
+JOBSUBJOBID                             OWNER       	SUBMITTED     RUNTIME   ST PRIO   SIZE  COMMAND
+24716921.0@jobsub05.fnal.gov            mmehmood  	11/07 11:26   0+00:03:58 R    0    0.0 eventLoop_minervame1A_wrapper_tag_default_1762535806.sh 
+81105071.0@jobsub01.fnal.gov            mmehmood  	11/07 11:26   0+00:03:58 R    0    0.0 migration_minervame1A_wrapper_tag_default_1762536363.sh 
+24613509.0@jobsub04.fnal.gov            mmehmood  	11/07 11:27   0+00:03:58 R    0    0.0 efficiency_minervame1A_wrapper_tag_default_1762536396.sh 
+3 total; 0 completed, 0 removed, 0 idle, 3 running, 0 held, 0 suspended
+[mmehmood@minervagpvm01 gridSubmission]$ 
+
