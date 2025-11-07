@@ -72,3 +72,10 @@ JOBSUBJOBID                             OWNER       	SUBMITTED     RUNTIME   ST 
 24587386.0@jobsub04.fnal.gov            mmehmood  	11/05 08:26   0+00:12:43 R    0    0.0 eventLoop_minervame1A_wrapper_tag_default_1762352783.sh 
 24587389.0@jobsub04.fnal.gov            mmehmood  	11/05 08:27   0+00:12:11 R    0    0.0 eventLoop_minervame1A_wrapper_tag_default_1762352835.sh 
 87992970.0@jobsub02.fnal.gov            mmehmood  	11/05 08:28   0+00:11:39 R    0    0.0 migration_minervame1A_wrapper_tag_default_1762352866.sh 
+
+November 7, 2025
+--> The jobs from earlier just showed that skipping over the electron neutrino events didn't make a difference on the muon
+    systematics plot, so we can just not run over that option anymore
+--> But we need to run over the options again, this time put in LE for no lownu flux param. and also, for faster running
+    just keep the muon reconstruction systematic error band turned on
+
