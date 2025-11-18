@@ -20,7 +20,6 @@ November 18, 2025
 --> Efficiency 1M is still the one running, needed to add that into the combined eff file and extract xsec
     again
 --> Ran over all stats and 10 iterations and the blowup problem is showing up for every mode basically
---> for 
 
 Crazy Discovery: Antineutrino LE 
 --> From the other day when we ran with only the muon systematics, unfolding that with 10 iterations still yields no blowup
@@ -28,4 +27,13 @@ Crazy Discovery: Antineutrino LE
     --> no blowup with 3 iterations, but breakdown still doesn't match 3 iterations breakdown plot from earlier
 --> Howeover, now when I ran with all the systematics (that was the only intended difference) there is no blowup with
     3 iterations, and no blowup with 10 iterations either
+
+Summary of Problem
+Here’s 2 runs of what should’ve been the same thing:
+NO BLOWUP: /exp/minerva/data/users/mmehmood/default_anaysis_loc/Nov14/MAD_minerva5_Sample2_SemiCurv/xsec_notBinWidthNorm_10iter.root
+YES BLOWUP: /pnfs/minerva/persistent/users/mmehmood/default_analysis_loc/LE_antinuRHC_Sample2_SemiCurv/xsec_notBinWidthNorm.root
+
+The only intended difference was that the run yielding Yes blowup was done to just repeat with all systematics 
+since the other one only has the muon systematics 
+
 
