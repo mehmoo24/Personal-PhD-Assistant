@@ -36,6 +36,8 @@ YES BLOWUP: /pnfs/minerva/persistent/users/mmehmood/default_analysis_loc/LE_anti
 The only intended difference was that the run yielding Yes blowup was done to just repeat with all systematics 
 since the other one only has the muon systematics 
 
-Test to run: Run the November 7th sample this time with 10 iterations to see if we're getting the blowups that we're seeing
+TO DO: Run the November 7th sample this time with 10 iterations to see if we're getting the blowups that we're seeing
              with the November 18th sample which is basically all stats and all systematics turned on (only intentional diff)
 
+November 18, 2025 Evening
+--> Submitted the antineutrino LE again to see what I would get this time
