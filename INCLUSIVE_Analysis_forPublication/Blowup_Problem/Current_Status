@@ -19,4 +19,13 @@ November 18, 2025
 --> Ran all the playlists with all the systematics turned on 
 --> Efficiency 1M is still the one running, needed to add that into the combined eff file and extract xsec
     again
+--> Ran over all stats and 10 iterations and the blowup problem is showing up for every mode basically
+--> for 
+
+Crazy Discovery: Antineutrino LE 
+--> From the other day when we ran with only the muon systematics, unfolding that with 10 iterations still yields no blowup
+    for antineutrino LE
+    --> no blowup with 3 iterations, but breakdown still doesn't match 3 iterations breakdown plot from earlier
+--> Howeover, now when I ran with all the systematics (that was the only intended difference) there is no blowup with
+    3 iterations, and no blowup with 10 iterations either
 
