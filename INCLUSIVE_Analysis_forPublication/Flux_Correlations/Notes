@@ -1,2 +1,5 @@
 /exp/minerva/app/users/mmehmood/MAT_AL9/opt/etc/MParamFiles/data/FluxConstraints
 --> Has the original ordering for the nu+e constraint
+
+/exp/minerva/app/users/mmehmood/MAT_AL9/opt/lib/data/flux
+--> Where the flux files live
