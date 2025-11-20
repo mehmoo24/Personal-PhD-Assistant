@@ -1,0 +1,19 @@
+The Bulletin Board: https://cdcvs.fnal.gov/redmine/projects/argoncube-2x2-demonstrator/wiki#1-Current-statusBulletin-board-May-16-2024
+The Electronic Logbook: https://dbweb2.fnal.gov:8443/ECL/argoncube/E/index
+Instructions for the shift: https://cdcvs.fnal.gov/redmine/projects/argoncube-2x2-demonstrator/wiki/Ac2x2-shift-how-to_
+
+1. Message the previous shifter to let them know that you're here
+2. Fill out the check-in once at start, the check-out once at end, the other 2 forms every hour
+3. The NoVNC has all the tabs already open that we need to be monitoring
+4. For something specific that's wrong, message the expert on call and ask about it, like the pixel maps
+
+* Don't need to put subject entry, but good to do that
+* No voltage in the SiPMs if the HV is turned off
+* For non critical alarm, put yes if in the same time window
+* LRS DAQ stops recording data when they're testing it, CRO still collects data when they're testing it, but plots may
+  look off for both cases
+* Vibrations may look not stable if have peaks, to see how long the problem has been there, can change the time scale
+* For pacmans: go one-by-one and check a bunch of things, for irregularity in rectangles should see that no longer rectange
+  --> P5, P6 exceptions listed because one tile higher than the rest of the tiles
+* Upload the screenshots for the bad chips for each pacman
+* Put a separate entry in ECL as well if something significant is off on top of filling it out in the form
