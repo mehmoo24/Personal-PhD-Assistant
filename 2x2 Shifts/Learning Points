@@ -1,0 +1,4 @@
+Important Learning Points
+
+--> IF a lot of the pacman tiles are above threshold, that makes sense if they're doing a purity monitor run, and should
+    come down once the run is over
