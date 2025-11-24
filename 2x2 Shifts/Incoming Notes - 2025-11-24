@@ -1,0 +1,15 @@
+James Vincent Mead Chat
+1. Pacman 7 is a bit noisy correlated with the white patches
+--> Bruno fixed it already, looking at it again
+
+2. Bad Chips, keep reporting them
+
+3. LRS will show dead channels, unless 24 in a row go on ADC 0 for a full ~30 mins, it's not a problem
+--> Refreshing in 5 mins should cause it to go away
+--> If it's Mod-0 (ADC0 and ADC1), don't call anyone, but document them
+--> If it's other modules, call Angela
+
+4. Trigger rate plot: HV vs LRS trigger rate: we're looking for spikes in the trigger rate, but have the gradient
+   b/c this run is with a radioactive source (and so in this case don't expect it to be flat)
+
+5. The DAQ02 is over 50% memory, its rising slowly and Bruno is aware
