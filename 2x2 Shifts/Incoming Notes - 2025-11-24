@@ -17,3 +17,12 @@ James Vincent Mead Chat
 
 November 24, 2025 NOTES
 --> Radon run stopped at 9:05 CT, purity monitor run started
+
+Notes to pass on:
+Notes from Kevin Wood (Luis is modifying the checklist to reflect this): The situation with the cryo coolers seems to be continuing to degrade ever since the power outage. We need to take the following actions:
+If the pressure gets below 85 mbarg, I would like to be notified immediately so I can monitor and try to get some makeup gas on while we have cooling power.
+If the LAr level reaches 2320, we will need to ramp down HV. I would like to be notified once it reaches 2325
+
+Notes from Angela: For the forseeable future, ignore the bottom two rows of the Dead/Alive plot completely. I'll monitor them. And you should send a screen shot and notify me (Angela) if 12 red faces in a row show up anywhere.
+
+Notes in General: At 3:02 CT, "Following the metadata issue that started around 2pm, we've started a new MORCs run. Still LRS triggering on the PMT, with a 320us delay"
