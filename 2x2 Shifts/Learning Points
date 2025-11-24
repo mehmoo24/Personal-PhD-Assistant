@@ -2,3 +2,7 @@ Important Learning Points
 
 --> IF a lot of the pacman tiles are above threshold, that makes sense if they're doing a purity monitor run, and should
     come down once the run is over
+
+--> AmBe source: It’s a low energy neutron source. It’s an abbreviation for “Americium Beryllium”, where Am241 is an alpha 
+                 emitter and when Be9 absorbs the alpha it creates an excited carbon state which releases a neutron and 
+                 a gamma in coincidence when it decays.
