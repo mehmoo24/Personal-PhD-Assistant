@@ -6,3 +6,6 @@ Important Learning Points
 --> AmBe source: It’s a low energy neutron source. It’s an abbreviation for “Americium Beryllium”, where Am241 is an alpha 
                  emitter and when Be9 absorbs the alpha it creates an excited carbon state which releases a neutron and 
                  a gamma in coincidence when it decays.
+
+--> When ramp down the high voltage, have seen effects on the charge readout as as result of that too, (like seeing
+    alternating green and gray on the plot for the ADC mean and RMS by tile)
