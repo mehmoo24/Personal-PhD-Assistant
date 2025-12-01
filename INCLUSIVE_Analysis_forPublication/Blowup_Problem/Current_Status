@@ -46,3 +46,15 @@ November 18, 2025 Evening
 November 21, 2025
 p7 production may fix it, see David's slides from the previous data preservation meeting for those notes, fixing
 a problem with the minos match for 850 mm events?
+
+December 1, 2025
+--> Make the plots with 4 ratio histograms on each for both universes
+--> Double check how we flattened the histogram with OF and UF
+--> Now need to investigate the off diagonals of the migration matrix
+
+The current findings are that the efficiency and the diagonal fraction are around the same, hence, the difference must be in the tiny
+off-diagonal structure
+--> Zoom out and see the size of the blowup
+--> Try with fewer iterations
+--> RESEARCH and find the sizes of the shifts
+--> before and after differences when running over all stats and all systematics, what's going on there
