@@ -58,3 +58,52 @@ off-diagonal structure
 --> Try with fewer iterations
 --> RESEARCH and find the sizes of the shifts
 --> before and after differences when running over all stats and all systematics, what's going on there
+
+Block 1 – Ratios & sanity checks
+Goal: “I have clear visual evidence of where the blowup lives.”
+	1.	✅ Make the plots with 4 ratio histograms on each for both universes
+	•	eff_univ / eff_CV
+	•	diagfrac_univ / diagfrac_CV
+	•	bkg-subtracted reco data (univ/CV)
+	•	unfolded (univ/CV)
+	2.	✅ Double check how you flattened the histogram with OF and UF
+	•	Confirm bin order (UF, in-range, OF) is consistent between:
+	•	migration matrix building
+	•	efficiency denominator
+	•	plotting
+	•	Write a 2–3 line comment in your code explaining the convention so you don’t have to remember later.
+	3.	✅ Zoom out and see the size of the blowup
+	•	One plot with y from 0–2 across all pt–pz bins, including UF/OF.
+	•	Mark the crazy bins with a vertical band or note them.
+
+⸻
+
+Block 2 – Migration matrix structure / off-diagonals
+Goal: “I know if the difference comes from off-diagonal weirdness.”
+	4.	✅ Investigate off-diagonals of the migration matrix
+	•	Compare CV vs blowup universe:
+	•	Column-normalized (reco-side) matrices → “purity style”
+	•	Row-normalized (truth-side) matrices → “stability style”
+	•	Look at:
+	•	Sum of near-diagonal bands (e.g. |Δbin| = 1–2)
+	•	Any weird horizontal/vertical streaks in problematic bins.
+	5.	(Optional) Try with fewer iterations
+	•	Re-run unfolding with, say, 2, 4, 6 iterations vs your current choice.
+	•	Check if blowup shrinks or is stable:
+	•	If it shrinks → likely an over-iterating / noise amplification issue.
+	•	If it doesn’t → likely something structural (flux, matrix, stat, etc.).
+
+⸻
+
+Block 3 – Global picture / “research” pass
+Goal: “I have a numbers-based sense of how big these shifts should be.”
+	6.	✅ RESEARCH and find the sizes of the shifts
+	•	From docs/notes/previous MINERvA/DUNE plots: what’s the typical percent shift for this systematic and variable?
+	•	Write down: “Expected scale: ~X–Y% in bulk, maybe up to Z% at edges.”
+	7.	✅ Before/after differences over all stats and all systematics
+	•	For the problematic bins:
+	•	Compare: stat-only vs stat+this syst.
+	•	Check if “all syst” is being dominated by this one universe or if others are also large.
+	•	Note: Is the blowup specific to unfolding, or already present in bkg-subtracted reco?
+	•	If only in unfolded → unfolding/matrix/iterations issue.
+	•	If already present in reco → something upstream (selection, weights, etc.).
