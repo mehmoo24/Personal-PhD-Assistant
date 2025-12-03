@@ -1,0 +1,35 @@
+Question: when creating a th1D, can we also write what the underflow and overflow bins should be?
+
+Short answer: Yes — but not in the constructor.
+You set underflow/overflow after creating the TH1D, by manually filling or writing to those bins.
+
+When you create a TH1D like:
+TH1D* h = new TH1D("h", "title", nbins, xmin, xmax);
+ROOT automatically creates nbins + 2 bins:
+	•	bin = 0 → underflow
+	•	bin = 1 ... nbins → normal bins
+	•	bin = nbins + 1 → overflow
+
+You cannot specify the values for underflow/overflow in the constructor — because 
+ROOT expects those to come from .Fill() or by setting them manually.
+
+✔️ How to explicitly set underflow and overflow
+Use SetBinContent or AddBinContent:
+
+Set the underflow bin:
+h->SetBinContent(0, underflow_value);
+
+Set normal bins:
+h->SetBinContent(i, value);   // i = 1...nbins
+
+Set the overflow bin
+h->SetBinContent(nbins + 1, overflow_value);
+
+✔️ If you want to fill them instead of setting values (INCREMENTS EXISTING CONTENT BY SOME AMOUNT)
+h->AddBinContent(0, weight);           // underflow
+h->AddBinContent(nbins + 1, weight);   // overflow
+
+✔️ Checking bin indices safely
+int n = h->GetNbinsX();
+double uf = h->GetBinContent(0);
+double of = h->GetBinContent(n+1);
