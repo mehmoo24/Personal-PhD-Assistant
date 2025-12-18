@@ -107,3 +107,7 @@ Goal: “I have a numbers-based sense of how big these shifts should be.”
 	•	Note: Is the blowup specific to unfolding, or already present in bkg-subtracted reco?
 	•	If only in unfolded → unfolding/matrix/iterations issue.
 	•	If already present in reco → something upstream (selection, weights, etc.).
+
+December 18, 2025
+I see a blowup when I combine the different modes. Now we're looking into just applying a one-sided shift. But there's 
+a question to answer about why this blowup is even showing up in one universe and not the other one
