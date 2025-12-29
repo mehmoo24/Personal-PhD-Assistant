@@ -1,0 +1,9 @@
+Worked on One sided shifts
+Submitted job to grid for p7 tuples: ME6A and ME1N
+--> changed over from running over LE tuples
+--> muon curvature sig cut being applied to all events
+
+Work todo tomorrow:
+--> archiving
+--> run the checks and make the plots for the one sided shift
+--> submit to the grid the antinu LE with all the error bands and muon curvature sig cut being applied to all events
