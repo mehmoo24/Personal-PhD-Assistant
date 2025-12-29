@@ -6,6 +6,6 @@ Submitting the Fermilab ID badge renewal request
 
 Work todo tomorrow:
 --> archiving
---> run the checks and make the plots for the one sided shift
+--> Run validation checks on the one-sided shift and produce the required comparison plots.
 --> submit to the grid the antinu LE with all the error bands and muon curvature sig cut being applied to all events
 
