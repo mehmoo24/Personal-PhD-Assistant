@@ -5,3 +5,7 @@ PLAN:
 --> take the data xsec histogram
 --> Pop off the vertical error band
 --> add back on the vertical error band with only one universe
+
+I'm done implementing the one sided shift in the cross section extractions script
+--> just need to test it some more
+--> make the plots
