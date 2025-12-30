@@ -1,0 +1,19 @@
+Today: 
+--> archiving
+--> Skeleton for the required plots
+--> made the iteration dependence plot for all the ptpz bins on x axis, added in sample
+gray area for the OF/UF bins
+--> Todo: check that the mapping of the binning is correct and shade in all the gray areas for 
+the OF/UF bins
+
+Skeleton for slides:
+1. MC Reco Ratio (univ/CV) 
+2. MC Unfolded Ratio (univ/CV)
+3. Iteration Dependence: two sets of plots
+4. Data: Systematics breakdown: before/after
+5. Data: Total Fractional uncertainty: before/after
+
+Work todo tomorrow:
+--> continue: Run validation checks on the one-sided shift and produce the required comparison plots.
+--> submit to the grid the antinu LE with all the error bands and muon curvature sig cut being applied to all events
+--> run over the p7 tuples
