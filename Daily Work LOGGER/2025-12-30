@@ -16,4 +16,4 @@ Skeleton for slides:
 Work todo tomorrow:
 --> continue: Run validation checks on the one-sided shift and produce the required comparison plots.
 --> submit to the grid the antinu LE with all the error bands and muon curvature sig cut being applied to all events
---> run over the p7 tuples
+--> process the plots for the p7 tuples that I ran over
