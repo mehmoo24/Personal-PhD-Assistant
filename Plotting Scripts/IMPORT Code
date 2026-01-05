@@ -1,4 +1,11 @@
+****************************************************************
+Take a look at Python Tools and the importing code script there
+for additional notes that are required
+****************************************************************
+
+**********************************************************
 Create a separate file that contains the plotting feature:
+**********************************************************
 
 overflow_boxes.py
 import ROOT
@@ -24,8 +31,9 @@ def make_overflow_boxes(ymin, ymax):
 
     return boxes
 
-
+******************************
 And then in your own file, do:
+******************************
 import ROOT
 from overflow_boxes import make_overflow_boxes
 
