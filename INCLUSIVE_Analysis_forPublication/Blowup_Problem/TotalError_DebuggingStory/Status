@@ -1,3 +1,7 @@
 January 5, 2025
 Currently, the total error seems to be the same before and after implementing the one-sided shift, even though the blowup
 appears to go away on the plot after implementing the one-sided shift
+
+
+Plotted it correctly because before was plotting just the CV for both which stays the same, now plotting the error and that
+changes
