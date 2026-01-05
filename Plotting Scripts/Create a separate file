@@ -1,0 +1,42 @@
+Create a separate file that contains the plotting feature:
+
+overflow_boxes.py
+import ROOT
+
+def make_overflow_boxes(ymin, ymax):
+    """
+    Create TBoxes for pt underflow and overflow regions
+    on a flattened histogram.
+    """
+    boxes = []
+
+    # pt OVERFLOW: bins 253–270
+    box_of = ROOT.TBox(253, ymin, 270, ymax)
+    box_of.SetFillColor(ROOT.kGray + 2)
+    box_of.SetFillStyle(3001)
+    boxes.append(box_of)
+
+    # pt UNDERFLOW: bins 1–18
+    box_uf = ROOT.TBox(1, ymin, 18, ymax)
+    box_uf.SetFillColor(ROOT.kGray + 2)
+    box_uf.SetFillStyle(3001)
+    boxes.append(box_uf)
+
+    return boxes
+
+
+And then in your own file, do:
+import ROOT
+from overflow_boxes import make_overflow_boxes
+
+AND also do:
+hist.Draw("HIST")
+
+# Get y-axis limits from the drawn histogram
+ymin = hist.GetMinimum()
+ymax = hist.GetMaximum() * 1.05
+
+boxes = make_overflow_boxes(ymin, ymax)
+
+for box in boxes:
+    box.Draw("SAME")
