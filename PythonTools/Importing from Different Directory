@@ -1,0 +1,4 @@
+If the module you are importing is in a different directory, you need to add that directory to the python path
+You also need to make sure that there is a __init__.py in that directory (could even just be empty)
+
+export PYTHONPATH=/exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/BlowupProblem:$PYTHONPATH
