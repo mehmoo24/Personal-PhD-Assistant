@@ -1,0 +1,22 @@
+-> Total Error plot problem fixed
+-> Binning mapping determined
+-> Generated all the plots for the different modes
+
+TODO: 
+
+--> Look through the plots and I'm thinking have data and MC on the same slide and background subtraction on first slide, 
+unfolded distributions on next slide
+--> Do that for all 7 systematics
+--> Do that for all 4 modes (can put the other three modes in the backup)
+
+--> Insert the updated iteration plots that I already made today
+--> Insert the total fractional error plots for all 4 modes on the slides
+--> Create the summary tables --> for the MC and for the data, which systematics need to become one-sided?
+--> Match that up with in the data, which systematics do we need to make one sided for the blowup to disappear, earlier were
+    seeing a discrepancy with that (BeamAngleX)
+--> Do need to make and insert the total error plot* (could simply do it interactively as well)
+--> Need to run the one-sided shift code for the combined playlist, don't know why that wasn't working earlier
+
+--> Add in explanation for the systematics
+
+--> IMPORTANT: Go through Notes from Meeting with Deborah to see if anything else that needs to be added
