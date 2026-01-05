@@ -2,4 +2,4 @@ print(hist1.GetXaxis().GetBinCenter(50))  # → 50.0 # The content of the 50th b
 print(hist1.GetXaxis().GetBinLowEdge(50)) # → 49.5
 print(hist1.GetXaxis().GetBinUpEdge(50))  # → 50.5
 
-* In ROOT, the numebers you see on the x axis, correspond to bin centers and not bin edges
+* In ROOT, the numbers you see on the x axis, correspond to bin centers and not bin edges
