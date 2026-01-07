@@ -2,3 +2,9 @@
     histo_CV_flat.SetDirectory(0)
     histo_univ0_flat.SetDirectory(0)
     histo_univ1_flat.SetDirectory(0)
+
+ALSO, don't modify original histograms, always Clone() them first if going to do something that changes the original histogram
+
+Then, need to do .SetDirectory(0) on the clone to detach it from the TFile. SetDirectory(0) just makes sure whichever histo 
+it is being called on, whether a clone or not, is not attached to any TFile, so that it doesn't accidentally get deleted
+by closing the TFile or by ROOT accidentally deleting it
