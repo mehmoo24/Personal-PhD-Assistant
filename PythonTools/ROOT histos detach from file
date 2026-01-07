@@ -1,0 +1,4 @@
+ # Detach histograms from any TFile so they are not deleted
+    histo_CV_flat.SetDirectory(0)
+    histo_univ0_flat.SetDirectory(0)
+    histo_univ1_flat.SetDirectory(0)
