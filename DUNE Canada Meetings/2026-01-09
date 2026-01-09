@@ -1,0 +1,7 @@
+
+Quinton's work:
+LAr tracks completeness cut was needs to pass 80% completeness
+--> the completeness cut was to say that 80% of the hits are there, not cutting on track length
+    --> the natural question then is how do we know that we're getting the end of the track?
+        --> answer: we don't know, actually we could do a check to see the distribution of plotting out the start and stop pos.
+            --> (reco - true) start and stop position to make sure that getting the end of the track
