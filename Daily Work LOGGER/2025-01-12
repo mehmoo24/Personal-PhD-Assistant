@@ -1,0 +1,10 @@
+Work done: Implemented unfolding universe 1 with 3 iterations and the rest with the number of iterations that the user
+puts in, logged and added to BeamAngleY slides to go over with Deborah
+
+--> submit the nuFHC files again b/c accidentally deleted those
+
+Tomorrow: SIDEBANDS DAY!
+--> Need bin by bin sideband correction generated for all the modes
+--> Need it applied to both the modes that I have the files for
+--> nuFHC ME is currently running and then submit antinuRHC LE after that 
+--> For the two modes, plot out what the total error summary is after the sideband correction applied
