@@ -1,0 +1,14 @@
+When return the result of the fit: 
+f = ROOT.TF1("f", "pol3", hpt.GetXaxis().GetXmin(), hpt.GetXaxis().GetXmax())
+and write it into the root file, then can do this:
+
+Fit_pzBin2->GetNDF()
+Fit_pzBin2->GetChisquare()
+Fit_pzBin2->Print()
+Formula based function:     f 
+                    f : pol3 Ndim= 1, Npar= 4, Number= 0 
+ Formula expression: 
+	([p0]+[p1]*x+[p2]*TMath::Sq(x)+[p3]*pow(x,3)) 
+
+Fit_pzBin2->GetParameter(2)
+(double) -9.0337902
