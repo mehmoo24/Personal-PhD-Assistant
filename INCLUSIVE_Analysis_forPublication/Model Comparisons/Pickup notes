@@ -4,3 +4,6 @@
 --> Need to generate the appropriate binned flux for ME (have neutrino reference from Dan), apply lownu flux
     param. to that flux and then can regenerate the 12 model predictions 
     --> can compare what I get with what I had from before
+
+--> As far as processing the flat trees is concerned, need to use the same binning to generate the 
+    predictions as the one that I'm using now
