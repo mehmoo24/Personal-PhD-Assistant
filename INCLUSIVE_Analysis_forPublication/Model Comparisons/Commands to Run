@@ -1,0 +1,3 @@
+NUISANCE TUTORIAL HERE: https://github.com/NUISANCEMC/tutorials/tree/main/interactive
+
+singularity exec nuisance_nuint2024.sif /bin/bash generation_GENIEv3_example.sh
