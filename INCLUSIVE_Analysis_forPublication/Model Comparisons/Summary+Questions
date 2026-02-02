@@ -1,5 +1,8 @@
 The MINERvA LE flux in the tutorial has 201 bins
 --> The MINERvA LE flux in FRW has only 39 bins --> can't rebin it so that we get more bins
 
+--> We will stick to using the MINERvA LE flux from the tutorial, perhaps should consult that when figuring 
+    out the LE closure test problem as well
+
 The MINERvA ME flux from Dan also has 201 bins (in 500 MeV bins)
 --> but the antineutrino version has 1001 bins, need to rebin it so that we end up with 201 bins
