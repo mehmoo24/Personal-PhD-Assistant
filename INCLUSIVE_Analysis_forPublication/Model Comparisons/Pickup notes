@@ -1,0 +1,6 @@
+--> There's 4 LE predictions still required (using the LE flux from teh tutorial b/c FRW has only 39 bins
+    and can't turn that into more bins, tutorial LE flux has 201 or so bins)
+
+--> Need to generate the appropriate binned flux for ME (have neutrino reference from Dan), apply lownu flux
+    param. to that flux and then can regenerate the 12 model predictions 
+    --> can compare what I get with what I had from before
