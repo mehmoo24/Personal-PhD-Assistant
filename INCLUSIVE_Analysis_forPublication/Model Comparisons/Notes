@@ -1,1 +1,7 @@
+For the ME model comparisons --> We need to do the lownu flux parameterization
 
+For the LE model comparisons --> Somehow the LE flux we're passing into the nuisance flux generator is not
+the same as the flux we're using?
+
+NUWRO LE
+NUWRO SF
