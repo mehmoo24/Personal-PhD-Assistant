@@ -3,5 +3,16 @@ For the ME model comparisons --> We need to do the lownu flux parameterization
 For the LE model comparisons --> Somehow the LE flux we're passing into the nuisance flux generator is not
 the same as the flux we're using?
 
-NUWRO LE
-NUWRO SF
+There's going to be 6 + 1 (MnvTune v1) Model Comparisons for all of them
+--> NuWro LFG, SF
+--> NEUT LFG, SF
+--> GENIE 10a, AR23
+
+That's 6 x 4 = 24 model predictions
+--> I need this to work with the lownu flux parameterization
+--> I need this to work with the flux that I'm actually using (in LE and in ME)
+
+--> Since we're generating them again, we could just put in the lownu flux parameterization this time, 
+    instead of reweighting it afterwards
+
+--> I need the correct LE flux and the correct ME flux to pass into the nuisance event generator
