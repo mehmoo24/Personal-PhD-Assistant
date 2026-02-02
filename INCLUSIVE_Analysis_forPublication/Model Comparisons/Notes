@@ -8,6 +8,8 @@ There's going to be 6 + 1 (MnvTune v1) Model Comparisons for all of them
 --> NEUT LFG, SF
 --> GENIE 10a, AR23
 
+--> For MnvTune v1 can have the breakdown with the different parts of the tune
+
 That's 6 x 4 = 24 model predictions
 --> I need this to work with the lownu flux parameterization
 --> I need this to work with the flux that I'm actually using (in LE and in ME)
