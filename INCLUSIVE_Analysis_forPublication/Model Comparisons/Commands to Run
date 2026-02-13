@@ -1,3 +1,6 @@
 NUISANCE TUTORIAL HERE: https://github.com/NUISANCEMC/tutorials/tree/main/interactive
 
+export PATH=/cvmfs/oasis.opensciencegrid.org/mis/apptainer/current/bin:$PATH
+
+and then run: 
 singularity exec nuisance_nuint2024.sif /bin/bash generation_GENIEv3_example.sh
