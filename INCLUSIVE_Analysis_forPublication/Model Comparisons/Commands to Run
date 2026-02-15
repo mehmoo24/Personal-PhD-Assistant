@@ -4,3 +4,5 @@ export PATH=/cvmfs/oasis.opensciencegrid.org/mis/apptainer/current/bin:$PATH
 
 and then run: 
 singularity exec nuisance_nuint2024.sif /bin/bash generation_GENIEv3_example.sh
+
+/exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/ModelComparisons/NUISANCE_TUTORIAL/nuisance_tutorials/interactive
