@@ -12,3 +12,7 @@
 2026-02-13
 --> Submitted all 12 LE model comparisons to the grid again, using the LE flux from the tutorial
 --> running on gpvm05, gpvm06, gpvm07
+
+
+Moved the image to /pnfs/minerva/persistent/users/mmehmood/image/nuisance_nuint2024.sif since it was really big
+--> Want to run the model comparisons on the grid. Need to ensure that the size of the directory is small
