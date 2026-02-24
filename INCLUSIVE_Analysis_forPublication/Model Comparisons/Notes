@@ -18,3 +18,12 @@ That's 6 x 4 = 24 model predictions
     instead of reweighting it afterwards
 
 --> I need the correct LE flux and the correct ME flux to pass into the nuisance event generator
+
+February 24, 2026
+I created the file /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/ModelComparisons/NUISANCE_TUTORIAL/GetFRW_Flux/ME/FRW_flux_ME.root 
+and that contains the lownu flux param. 
+also the flux is per 0.5 GeV and per 10^6 POT since that's the LE flux already in the tutorial was in
+
+I created this file in : /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/ModelComparisons/NUISANCE_TUTORIAL/GetFRW_Flux/ME/FRW_flux_ME.root
+
+
