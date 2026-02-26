@@ -16,3 +16,12 @@
 
 Moved the image to /pnfs/minerva/persistent/users/mmehmood/image/nuisance_nuint2024.sif since it was really big
 --> Want to run the model comparisons on the grid. Need to ensure that the size of the directory is small
+
+2026-02-26
+The LE predictions with the 100 disk size should now be correct and only the processFlattrees need to be run on them
+--> small caveat to do the closure test for LE and match the flux
+The ME predictions are turning up empty root files. likely the problem is that the error in the ME flux files which have
+been rebinned as well as the lownu flux param. applied to them have an error of 0. this was because for the rebinning
+went from a fewer number of bins to a larger number and some of the bins came from 2 bins (like the 0.5 GeV bin had content
+coming in from 2 of the original histogram bins, so for the error need to do a proper correlation and so should look into 
+that)
