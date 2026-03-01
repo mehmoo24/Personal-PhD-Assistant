@@ -6,8 +6,16 @@ Comparisons to Dan's slides:
 https://minerva-docdb.fnal.gov/cgi-bin/sso/ShowDocument?docid=29091
 
 Current problem: Muon Angle Y Resolution is blowing up for all the 4 modes
-Kevin's solution: let's only take 1 sigma of the gaussian, it's coming out to 0.4 so 68.27% of that is 0.273
+Kevin's solution: let's only take 1 sigma of the gaussian, it's coming out to 0.41 so 68.27% of that is 0.028
 Only apply the systematic for muon reco angle < 0.273 and not to all the reconstructed muon theta_y angles
 +/- 1 sigma: 68.27%
 +/- 2 sigma: 95.45% 
 +/- 3 sigma: 99.73%
+
+Approach: Run the code again with all the systematics turned on (MuonAngleXResolution turned on by the xsec extraction
+script pops it off). so we apply all the systematics, but then here's the changes we made:
+--> Only run over muon reconstruction systematics
+--> Add in reco theta angle y in Event Selection Script, add in reco theta angle y in Migration, 
+    add in reco theta angle y in numerator of efficiency and true theta angle y in denominator of efficiency
+
+--> B/c then teh goal is to lift the MuonAngleYResolution systematic from this and super-impose it onto our own xsec
