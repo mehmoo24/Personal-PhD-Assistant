@@ -6,3 +6,8 @@ Comparisons to Dan's slides:
 https://minerva-docdb.fnal.gov/cgi-bin/sso/ShowDocument?docid=29091
 
 Current problem: Muon Angle Y Resolution is blowing up for all the 4 modes
+Kevin's solution: let's only take 1 sigma of the gaussian, it's coming out to 0.4 so 68.27% of that is 0.273
+Only apply the systematic for muon reco angle < 0.273 and not to all the reconstructed muon theta_y angles
++/- 1 sigma: 68.27%
++/- 2 sigma: 95.45% 
++/- 3 sigma: 99.73%
