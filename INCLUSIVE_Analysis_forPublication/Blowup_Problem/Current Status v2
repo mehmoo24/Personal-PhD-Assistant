@@ -26,5 +26,6 @@ antinuRHC_LiftMAYSys
 
 Conclusion from this study: Got a blowup at low pT and low p|| this time because the cut turned off very fast,
 can't lift a systematic like that by applying a cut to an entire phase space first and then stitching it onto
-my cross section
+my cross section, this cut introduces an artificial boundary in phase space and then we get another blowup as a result
+of that
 
