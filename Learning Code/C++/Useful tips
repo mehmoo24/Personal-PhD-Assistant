@@ -1,0 +1,3 @@
+--> Don't repeatedly call something like: T::GetThetaYmu(), store it and then use it
+
+--> Can just return in the if statement and then return in the else statement, instead of one return at the end
