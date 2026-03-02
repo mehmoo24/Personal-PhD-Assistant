@@ -29,3 +29,15 @@ can't lift a systematic like that by applying a cut to an entire phase space fir
 my cross section, this cut introduces an artificial boundary in phase space and then we get another blowup as a result
 of that
 
+Modified in the MAT now:
+double PlotUtils::MuonAngleYResolutionUniverse<T>::GetThetaYmu() const {
+  double shift_val = GetThetaYmuShift();
+  
+  // we only apply the shift if reco theta y in between 1 sigma of the mean
+  double reco_thetay = T::GetThetaYmu();
+  if (reco_thetay > -0.028 && reco_thetay < 0.028){
+     return shift_val + reco_thetay;}
+  else return reco_thetay;
+
+
+
