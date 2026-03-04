@@ -1,0 +1,28 @@
+WAIT: I think I had pT and p|| with respect to detector coordinates! And not beam coordinates
+
+--> Doing the beam unit vector DOT the momentum vector in detector coordinates yields a different answer for pZmu but
+that is consistent between the data and MC, about 1% different from the other way of doing it
+--> in this way, the projections? of the muon momentum vector onto the beam axis changes when we change the thetaY angle
+or the thetaX angle
+--> instead of the way it's being done in the MAT, where the polar angle gets the shift added to it and then we do
+pmu * cos(thetamu) for pZmu and pmu*sin(thetamu) for pTmu
+
+--> These are 2 ways of computing the beam angle systematic, perhaps the published result was computing it the other way
+
+--> can use a rotation matrix (a bit unsure about how) or the DOT product to get pZmu
+
+pZmu is defined to be along the beam direction and pTmu is transverse to the beam direction
+
+Using polar angle: pmu and then pmu*cos(theta) = pZmu, pmu*sin(theta) = pTmu
+Using Beam coordinates: pz = pmu and sqrt(px^2 + py^2) = pTmu
+
+Now, to get the coordinates of momentum when have the momentum
+in the detector, MINERvA defines the angle to be tan(thetax) = x/z where z is the detector axis
+and also tan(thetay) = y/z
+pmu^2 = px^2 + py^2 + pz^2
+pmu^2 = z^2 * (tan(thetax))^2 + z^2 * (tan(thetay))^2 + z^2
+so can do z = pmu/(sqrt (1 + tan^2(thetax) + tan^2(thetay) ))
+
+For the beam unit direction vector, we have
+theta_beam = (sin(thetax_shift), sin(thetay_shift), sqrt(1- sin^2(thetax_shift) - sin^2(thetay_shift)))
+In MINERvA, we have thetax_shift = 0 and thetay_shift is MinervaUnits::numi_beam_angle_rad
