@@ -1,2 +1,6 @@
 To archive a particular directory: 
 . archive_user.sh kleykamp persistent Auto_NukeCCQETwoTrack_Merged
+
+
+To check the usage:
+https://fifemon.fnal.gov/monitor/d/000000175/dcache-persistent-usage-by-vo?orgId=1&var-VO=minerva
