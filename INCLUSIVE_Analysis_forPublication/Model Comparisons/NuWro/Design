@@ -1,0 +1,14 @@
+2026-04-12
+
+Currently, we have 4 modes: ME and LE: nu and antinu, 
+
+--> want them to dump the 4 files from the grid into one directory
+--> want there to be one card for the model prediction and that takes inputs to change up between the modes
+
+Fix up the pipeline, then when those finish running, that one directory gets passed to ProcessFlatTree which goes over the
+root file name to determine the mode and runs appropriately and then transports that file back to the directory with the orig
+flattree root files
+
+--> use [[ ]] double square brackets for if statements inside bash scripts
+--> passed in the mode then had a bunch of if statements to set the variables using export so that we could run jobs in 
+    parallel
