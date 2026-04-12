@@ -12,3 +12,9 @@ flattree root files
 --> use [[ ]] double square brackets for if statements inside bash scripts
 --> passed in the mode then had a bunch of if statements to set the variables using export so that we could run jobs in 
     parallel
+
+write the script that takes the direcotry and then just extracts the model comparisons
+--> then run it over the directories that i already have the model comparisons for
+--> fix up the other 5 model comparisons to also submit easily to the grid
+--> make the 4 plots for the efficieny denominator broken up by the interaction channel
+--> fix up the grid submission job that isn't being successful
