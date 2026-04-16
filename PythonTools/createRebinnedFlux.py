@@ -1,3 +1,15 @@
+# Used Interpolation to be able to rebin the flux
+# Linear option was better to use for interpolation since "cubic" can introduce more wiggle
+# interpolation is basically it will connect the dots betweeen all the data points, makes more sense to use than a fit,
+# since want to hold onto all of the data and just rebin it, like doing digitizing of a figure essentially
+# we multiplied by the bin width since the end result we didn't want normalized by the bin width
+
+# could've also used the integral for filling in the bin instead of just using the value at the bin center, but it was a 
+# good enough approximation since 500 MeV bins
+
+# for errors, did the same thing: used interpolation and then multiplied by the bin width, though for NUISANCE the errors on
+# the flux file don't matter since it's just interested in the CV (ref. Dan)
+
 import ROOT
 import numpy as np
 from scipy.optimize import curve_fit
