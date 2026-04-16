@@ -5,7 +5,7 @@
 # we multiplied by the bin width since the end result we didn't want normalized by the bin width
 
 # could've also used the integral for filling in the bin instead of just using the value at the bin center, but it was a 
-# good enough approximation since 500 MeV bins
+# good enough approximation to just use value of interpolation at bin center since 500 MeV bins
 
 # for errors, did the same thing: used interpolation and then multiplied by the bin width, though for NUISANCE the errors on
 # the flux file don't matter since it's just interested in the CV (ref. Dan)
