@@ -1,9 +1,18 @@
+April 16, 2026 - Conclusions
+From Dan: NUISANCE only cares about the CV for the fluxes and not the uncertainty on them
+--> Will use minerva_le_flux.root from the tutorial for the LE fluxes
+--> Rebinned the ME fluxes using interpolation, drew them on top of the FRW predictions and match up well
+    ==> Compared ME numu flux to file from Dan and seeing some differences there because Dan only has nu-e constraint and 
+        not the combined version
+----> Flux problem should be sorted out now, running nuwroLFG for half million events with these 4 flux predictions now
+
+
 April 16, 2026
 
 --> Current problem: the GENIE prediction comes back correctly but neut and nuwro are behaving so strangely for 3 modes but
 behaving appropriately for antineutrinos ME
 --> I think it's because of the flux bins not being uniform for the three other modes
---> The file that I got from Dan also has the numuFHC flux rebinned and unnormalized 
+--> The file that I got from Dan also has the numuFHC flux rebinned and un-bin width normalized 
 
 Points to address
 --> The number of bins FRW flux has
