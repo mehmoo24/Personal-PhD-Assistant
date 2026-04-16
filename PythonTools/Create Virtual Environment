@@ -1,0 +1,40 @@
+EVERY FOLLOWING TIME: 
+==> Turn on the virtual environment:
+source rebinner_env/bin/activate
+
+[will see something like: (rebinner_env) [mmehmood@minervagpvm02 ...]$]
+
+==> Run your code:
+python createRebinnedFlux.py
+
+==> Turn off the environment: 
+deactivate
+
+
+---------------------------
+THE FIRST TIME: 
+---------------------------
+
+==> Create a virtual environment:
+
+python3 -m venv rebinner_env
+
+==> Activate it: 
+
+source rebinner_env/bin/activate
+
+==> Install what we need in the environment:
+
+python -m pip install --upgrade pip
+python -m pip install numpy scipy uproot
+
+==> Test it:
+
+python -c "import numpy; print(numpy.__version__)"
+python -c "import scipy; print('scipy ok')"
+
+==> Run your script:
+
+python createRebinnedFlux.py
+
+
