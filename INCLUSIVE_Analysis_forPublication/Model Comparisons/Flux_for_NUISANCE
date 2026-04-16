@@ -1,0 +1,18 @@
+April 16, 2026
+
+--> Current problem: the GENIE prediction comes back correctly but neut and nuwro are behaving so strangely for 3 modes but
+behaving appropriately for antineutrinos ME
+--> I think it's because of the flux bins not being uniform for the three other modes
+--> The file that I got from Dan also has the numuFHC flux rebinned and unnormalized 
+
+Points to address
+-->  The number of bins FRW flux has
+--> Does the FRW LE flux match the minerva_le.root file in the tutorial
+--> Perhaps need to run the GENIE prediction again, this time with the flux even if w/ the original irregular binning from 
+    FRW, but the flux needs to be un-binnormalized since the code divided out by the "width", or ideally should create
+    one flux file with all 4 fluxes: nu and numubar for ME and LE and use that for all the generators
+--> What about the uncertainty on the flux histograms? Would it be okay to just use the statistical uncertainty on the flux
+    histograms?
+
+--> Now, the nuwro model prediction isn't matching what Dan has: He did send me his card which has some differences in the 
+    settings he ran with
