@@ -18,6 +18,8 @@ PLAN OF ACTION
 --> GOAL: Get one flux file with all four fluxes that have the same binning and are un-bin normalized
 --> Run nuwro with half million events and confirm that getting consistent behaviour for all four modes
 --> Compare the FRW LE flux with the flux file in the tutorial
+    Tutorial minerva_le_flux.root when I divide out by the bin width and scale by 1e-6 (since it's originally per 10^6 POT)
+    matches almost perfectly with the FRW flux, checked for neutrino LE flux, probably same for antineutrino LE flux
 --> Compare the FRW ME flux with flux file from Dan
     CONCLUSION: Dan's flux when I divide out by the bin width sits almost perfectly on the FRW flux
 
