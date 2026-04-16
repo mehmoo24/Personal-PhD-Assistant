@@ -6,13 +6,20 @@ behaving appropriately for antineutrinos ME
 --> The file that I got from Dan also has the numuFHC flux rebinned and unnormalized 
 
 Points to address
--->  The number of bins FRW flux has
+--> The number of bins FRW flux has
 --> Does the FRW LE flux match the minerva_le.root file in the tutorial
 --> Perhaps need to run the GENIE prediction again, this time with the flux even if w/ the original irregular binning from 
     FRW, but the flux needs to be un-binnormalized since the code divided out by the "width", or ideally should create
     one flux file with all 4 fluxes: nu and numubar for ME and LE and use that for all the generators
 --> What about the uncertainty on the flux histograms? Would it be okay to just use the statistical uncertainty on the flux
     histograms?
+
+PLAN OF ACTION
+--> GOAL: Get one flux file with all four fluxes that have the same binning and are un-bin normalized
+--> Run nuwro with half million events and confirm that getting consistent behaviour for all four modes
+--> Compare the FRW LE flux with the flux file in the tutorial
+--> Compare the FRW ME flux with flux file from Dan
+    CONCLUSION: Dan's flux when I divide out by the bin width sits almost perfectly on the FRW flux
 
 --> Now, the nuwro model prediction isn't matching what Dan has: He did send me his card which has some differences in the 
     settings he ran with
