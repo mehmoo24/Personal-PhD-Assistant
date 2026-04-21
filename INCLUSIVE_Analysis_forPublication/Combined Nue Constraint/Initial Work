@@ -1,0 +1,16 @@
+Luis' thesis:
+https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=31694&filename=luis_zazueta_dissertation.pdf&version=1
+
+--> Need to develop a tool takes flux measurements and comes up with a combined constraint using them
+Q: Should the tool only take data measurements for nu-e scattering, IMD and then come up w/ the MC predictions and universes itself when tuples w/ a 1000 universe get passed in?
+Qb) : if so, the MC prediction will probably not be doing sophisticated things like sideband tuning, MC predictions exist for ME but can't see it for LE
+
+--> Tools in the MAT: Takes the list of weights and constrains the flux: MnvHistoConstrainer
+--> Tools in the MAT: Takes the ordered universes and generates the new ordering
+
+Q: If the weights are only going to be scaling the universes, in practice how does the CV flux prediction change?
+
+Plan:
+--> Stitch together the measurements
+--> Compute the weights using the stitched together measurements
+--> Use the weights to create a new flux prediction
