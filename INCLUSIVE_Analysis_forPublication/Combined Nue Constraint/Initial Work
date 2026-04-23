@@ -1,6 +1,21 @@
 Luis' thesis:
 https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=31694&filename=luis_zazueta_dissertation.pdf&version=1
 
+Luis' path:
+/exp/minerva/app/users/lzazueta/cmtuser/Minerva_v22r1p1/Personal/lzazueta/FluxConstraint/ProduceElectronSpectra.cxx
+
+Using wgts to create the constrained flux:
+/exp/minerva/app/users/lzazueta/cmtuser/Minerva_v22r1p1/Personal/lzazueta/FluxConstraint/constraintFlux.py
+
+Using tool to re-order the universes based on the weights:
+/exp/minerva/app/users/mmehmood/MAT_AL9/opt/etc/MParamFiles/data/FluxConstraints
+
+Using tool to load the flux constraint (pass it in a .txt with the wgts):
+/exp/minerva/app/users/mmehmood/MAT_AL9/MAT/PlotUtils/MnvFluxConstraint.cxx
+
+I don't know what the wgts file being named as sorted means --> I don't think it has to do with the universes being 
+rearranged b/c of the wgts, since the mapping: 
+
 --> Need to develop a tool takes flux measurements and comes up with a combined constraint using them
 Q: Should the tool only take data measurements for nu-e scattering, IMD and then come up w/ the MC predictions and universes itself when tuples w/ a 1000 universe get passed in?
 Qb) : if so, the MC prediction will probably not be doing sophisticated things like sideband tuning, MC predictions exist for ME but can't see it for LE
