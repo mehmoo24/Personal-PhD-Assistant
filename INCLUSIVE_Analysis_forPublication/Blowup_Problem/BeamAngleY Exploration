@@ -1,0 +1,35 @@
+2026-04-26
+
+Problem: The BeamAngleY is continuing to be a bit high at the edges of phase space even with 3 iterations
+POTENTIAL SOLUTION: Maybe the way that the shift is being applied is what is causing this to happen
+
+
+Framework to run:
+--> Systematics.h be changed to only run the BeamAngleY systematic
+--> Submit to the grid w/ the original way of applying the BeamAngleY systematic
+--> Submit to the grid w/ the other way of applying the BeamAngleY systematic
+
+MAYResolution being applied a particular way
+
+DETAIL OF ORIGINAL WAY OF APPLYING BEAM_ANGLE_Y Systematic:
+
+
+/exp/minerva/app/users/mmehmood/MAT_AL9/MAT-MINERvA/calculators/MuonFunctions.h
+/exp/minerva/app/users/mmehmood/MAT_AL9/MAT-MINERvA/universes/AngleSystematics.cxx
+
+virtual double GetThetaXmu() const { /* radians */
+  // Default offset is zero - but allows adding resolution
+  std::string thetaBranch = "muon_thetaX";
+  return GetDouble(thetaBranch.c_str()) + GetBeamAngleOffsetX();
+}
+
+virtual double GetThetaYmu() const { /* radians */
+  // Default offset is zero - but allows adding resolution
+  std::string thetaBranch = "muon_thetaY";
+  return GetDouble(thetaBranch.c_str()) + GetBeamAngleOffsetY();
+}
+
+double PlotUtils::BeamAngleYUniverse<T>::GetBeamAngleOffsetY() const {
+  double shift_val = T::m_nsigma * m_Uncertainty;
+  return shift_val+T::GetBeamAngleOffsetY();
+}
