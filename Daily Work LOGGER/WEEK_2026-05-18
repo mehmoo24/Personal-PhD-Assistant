@@ -1,0 +1,24 @@
+Future todo list:
+--> Kevin's work w/ propagating uncertainties to the unfolded data distribution
+--> changing coordinates for the blowup problem continued exploration
+--> additional stat. uncertainty study
+--> sideband correction
+
+Todo list for this week:
+--> investigate how to figure out what the minimum neutrino energy required is
+--> Submit model comparison with Dan's config and Dan's flux file to narrow down what the problem is
+--> Run over p8 production and compare to what I was getting before
+--> FLUX Correlations complete + writeup ready to submit
+
+Meetings:
+--> Tuesday at 2pm
+--> Thursday at 10:30am
+
+
+Monday:
+--> What progressed today was I determined that the mapping between the sorted and unsorted weights is likely just carrying over from the nu-e ME analysis instead of it having been computed 
+again which would have likely yielded a different mapping since 1e-6 weights appear after 500 universes for nu-e ME but like 13th place for the combined analysis (indicative of likely using
+an outdated mapping). I also figured out the code that is used to create the constraint by using the available weights. I need to get that code to run now. I also went through my notes and
+started an overleaf doc to document everything as I go for the flux correlations work
+--> The current blocker is running the code for applying the constraint and creating the root files using the weights
+--> The first action tommorrow will be to get this code to run
