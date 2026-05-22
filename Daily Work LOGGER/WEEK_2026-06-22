@@ -1,0 +1,9 @@
+Technical Notes Review:
+
+--> If we want to draw the error as a band then we still use 'EP' but this time we can use a fill colour it should plot it.
+'EP' already knows to create a symmetric error band and so it's a waste of time to use the uncertainty and start creating
+an error band yourself
+see. /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUX/Flux_Plotting/flux_CV_RMS.py
+
+--> For covariance matrix, can use nbins, xmin, xmax to define the binning for the 2d covariance matrix
+see. /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUX/MakeCovMatrix
