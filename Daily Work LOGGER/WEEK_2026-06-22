@@ -16,3 +16,17 @@ after applying Luis' flux constraint
     the grid
 --> For Quinn's FluxCalculator will need to run the code again, this time offset the flux correlations for the focusing
     uncertainties and submit that to the grid as well
+
+--> Only keep the necessary files from Quinn's directory b/c otherwise it is 1.4 GB
+
+PICK UP NOTES:
+--> CHeck the grid submission for just running over Quinn's code
+--> Submit to the grid the code for writing a covariance matrix (need to write that code in C++ first)
+--> Make the change to FluxCalculator for breaking the correlation and submit that code to the grid as well
+DELIVERABLES: 
+* Make the covariance plot (by submitting to the grid) for the case of breaking the correlation to double check
+that the correlation was in fact broken for the focusing uncertainties between neutirno mode and antineutrino mode
+* Apply Luis' constraint to 3 cases: shuffled universes for neutrino mode, shuffled universes for antineutrino mode, 
+shuffled universes for both to see how shuffling the universes has impacted the application of the constraintcd
+
+
