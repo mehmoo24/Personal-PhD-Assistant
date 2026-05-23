@@ -7,3 +7,12 @@ see. /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUX/Flux_Plot
 
 --> For covariance matrix, can use nbins, xmin, xmax to define the binning for the 2d covariance matrix
 see. /exp/minerva/app/users/mmehmood/MAT_AL9/GitRepo-Analysis/ana/FLUX/MakeCovMatrix
+
+--> Turns out the covariance matrix is taking very long to fill in
+--> The question was how the covariance changes when we move around the correlations --> the impact that has on the result
+after applying Luis' flux constraint
+
+--> BAD IDEA to use python to fill in such a huge covariance matrix, better bet to write c++ file and then submit it to
+    the grid
+--> For Quinn's FluxCalculator will need to run the code again, this time offset the flux correlations for the focusing
+    uncertainties and submit that to the grid as well
