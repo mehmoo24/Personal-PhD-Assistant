@@ -1,3 +1,10 @@
+PROBLEMS:
+--> the FINE binning migration matrices running over p8 turn up empty
+----> will submit code to run over p6Prime to determine whether it is a binning issue or a tuple issue?
+
+--> I interactively ran the files to get the solution for the shuffled universes, still need to interactively run the files
+without the shuffled so that can match up with what Quinn was getting originally 
+
 Technical Notes Review:
 
 --> If we want to draw the error as a band then we still use 'EP' but this time we can use a fill colour it should plot it.
