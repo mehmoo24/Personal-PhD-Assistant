@@ -1,6 +1,18 @@
 12 (3-hour) SESSIONS (Monday June 1, 2026 - Sunday June 7th 12pm)
 
-1. MODEL COMPARISONS: 32 Deliverable Model comparisons after run comparison w/ Dan's files
+1. MODEL COMPARISONS: 24 Deliverable Model comparisons after run comparison w/ Dan's files
+--> Dan's flux has nu-e only, NUISANCE only needs the CV b/c only the shape matters to NUISANCE
+--> Dan's flux file has 200 bins for nuFHC ME and so does mine (w/ the combined nu-e constraint)
+
+--> For NuWRO likely issue w/ how the target content was defined, changed it now to be appending the hydrogen to the carbon
+instead of replacing it
+#target_content = 6 6 1.0
+#target_content = 1 0 1.0
+target_content = 6 6 1x
+target_content += 1 0 1x
+
+--> Submitted to grid: Dan's flux file inputted in all three cards and then submitted for nuFHC ME
+--> Changed Dan's flux file and commented back my original flux file and then submitted all 24 model comparisons to the grid
 
 2. Lorenzo's propagation of systematics
 
