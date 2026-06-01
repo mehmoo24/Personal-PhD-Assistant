@@ -12,6 +12,8 @@ target_content = 6 6 1x
 target_content += 1 0 1x
 --> Submitted to grid: Dan's flux file inputted in all three cards and then submitted for nuFHC ME
 --> Changed Dan's flux file and commented back my original flux file and then submitted all 24 model comparisons to the grid
+WP2: 
+--> Resubmitted them at the end of the work session to run in screen
 
 2. Lorenzo's propagation of systematics
 
@@ -26,9 +28,14 @@ summing up the col should give the total nu-e scattering cross section for a par
 --> Then multiply the matrix by the flux and the neutrino energy bin widths and the number of targets to get the electron
 energy distribution for each universe
 
+WP2: 
+--> Started the overleaf doc, determining the code structure
+
 6. Grid submission issue with migration fine binning
 
 7. Comparison between p6Prime and P8
+WP2:
+--> Made the plots and sent them to David
 
 8. Make the plots for the flux weights that Deborah said
 
