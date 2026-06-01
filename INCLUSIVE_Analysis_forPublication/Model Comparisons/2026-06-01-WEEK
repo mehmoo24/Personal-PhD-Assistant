@@ -1,0 +1,12 @@
+1. The first goal is to run w/ Dan's flux file and Dan's parameters and see whether I am able to retrieve what he got
+
+--> NEUT, NuWro are the problems
+
+Neutrinos ME FHC
+NEUT LFG, NuWRO LFG --> Run w/ Dan's inputs and Dan's flux file
+NEUT LFG, NuWRO LFG --> Run w/ Dan's inputs and My flux file
+
+Then, will need to run:
+4 MODES x NEUT MODEL x NuWRO MODEL x GENIE MODEL = 32 MODEL COMPARISONS
+
+End of the week deliverable: 32 MODEL COMPARISONS
