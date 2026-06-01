@@ -1,16 +1,15 @@
 12 (3-hour) SESSIONS (Monday June 1, 2026 - Sunday June 7th 12pm)
 
 1. MODEL COMPARISONS: 24 Deliverable Model comparisons after run comparison w/ Dan's files
+WP1: 
 --> Dan's flux has nu-e only, NUISANCE only needs the CV b/c only the shape matters to NUISANCE
 --> Dan's flux file has 200 bins for nuFHC ME and so does mine (w/ the combined nu-e constraint)
-
 --> For NuWRO likely issue w/ how the target content was defined, changed it now to be appending the hydrogen to the carbon
 instead of replacing it
 #target_content = 6 6 1.0
 #target_content = 1 0 1.0
 target_content = 6 6 1x
 target_content += 1 0 1x
-
 --> Submitted to grid: Dan's flux file inputted in all three cards and then submitted for nuFHC ME
 --> Changed Dan's flux file and commented back my original flux file and then submitted all 24 model comparisons to the grid
 
@@ -21,6 +20,11 @@ target_content += 1 0 1x
 4. Writeup of Luis' work and send to Kevin
 
 5. Determination of electron energy distributions using derivation
+WP1:
+--> Understood derivation and that need to come up with a matrix K_ji = integral(y_min, y_max) dsigma/dy * dy and then 
+summing up the col should give the total nu-e scattering cross section for a particular neutrino energy.
+--> Then multiply the matrix by the flux and the neutrino energy bin widths and the number of targets to get the electron
+energy distribution for each universe
 
 6. Grid submission issue with migration fine binning
 
