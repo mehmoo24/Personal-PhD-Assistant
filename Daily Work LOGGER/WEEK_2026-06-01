@@ -14,6 +14,8 @@ target_content += 1 0 1x
 --> Changed Dan's flux file and commented back my original flux file and then submitted all 24 model comparisons to the grid
 WP2: 
 --> Resubmitted them at the end of the work session to run in screen
+WP4: 
+--> Need to 
 
 2. Lorenzo's propagation of systematics
 
@@ -31,10 +33,16 @@ energy distribution for each universe
 WP2: 
 --> Started the overleaf doc, determining the code structure
 
+WP3:
+--> Reviewed structure with supervisor, sent Kevin email asking about whether okay that correction not a func of y as well
+--> Started coding
+
 6. Grid submission issue with migration fine binning
 
 7. Comparison between p6Prime and P8
-
+WP3: 
+--> Tried to process them but one of the root files was empty
+--> Need to submit the grid again!
 
 8. Make the plots for the flux weights that Deborah said
 
