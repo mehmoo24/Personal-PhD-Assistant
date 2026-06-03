@@ -14,7 +14,7 @@ target_content += 1 0 1x
 --> Changed Dan's flux file and commented back my original flux file and then submitted all 24 model comparisons to the grid
 WP2: 
 --> Resubmitted them at the end of the work session to run in screen
-WP5: 
+WP7: 
 --> Need to start the process tree files
 
 2. Lorenzo's propagation of systematics
@@ -41,7 +41,9 @@ WP4:
 --> Continue coding
 
 WP5:
---> Continue coding, typing up overleaf doc, send Kevin and Luis the email w/ comparisons for what I'm getting currently 
+--> Continue coding, 
+
+WP6 and WP7: typing up overleaf doc, send Kevin and Luis the email w/ comparisons for what I'm getting currently 
 for the electron energy distributions, committed to git and sent link to the git doc as well
 
 6. Grid submission issue with migration fine binning
