@@ -14,7 +14,7 @@ target_content += 1 0 1x
 --> Changed Dan's flux file and commented back my original flux file and then submitted all 24 model comparisons to the grid
 WP2: 
 --> Resubmitted them at the end of the work session to run in screen
-WP4: 
+WP5: 
 --> Need to start the process tree files
 
 2. Lorenzo's propagation of systematics
@@ -37,6 +37,13 @@ WP3:
 --> Reviewed structure with supervisor, sent Kevin email asking about whether okay that correction not a func of y as well
 --> Started coding
 
+WP4:
+--> Continue coding
+
+WP5:
+--> Continue coding, typing up overleaf doc, send Kevin and Luis the email w/ comparisons for what I'm getting currently 
+for the electron energy distributions, committed to git and sent link to the git doc as well
+
 6. Grid submission issue with migration fine binning
 
 7. Comparison between p6Prime and P8
@@ -48,3 +55,5 @@ WP4:
 
 8. Make the plots for the flux weights that Deborah said
 
+BACK BURNER:
+--> Luis' email
