@@ -1,4 +1,5 @@
 Project: Creating a machinery for a combined flux constraint
+2026-06-09_WEEK
 
 --> I created an object called MatrixK for the cross section mapping between electron energy and neutrino energy bins
 --> Now, I created another object called EeDistributionCreator, this is supposed to be a massive tool that writes all
