@@ -34,3 +34,16 @@ the TH2D histograms containing the cross section matching for each flavour --> 4
 ----> This tool takes as input a flux distribution, according to that distribution it determines the neutrino energy binning
 on the x axis of this matrix (the columns of the matrix) and it takes in measurements and according to that determines the 
 y axis binning of the matrix (the rows of the matrix)
+
+DEBUG 2:
+Using a pointer is actually very easy:
+
+Keep and .h and .cxx files corresponding to MatrixK the same and then for the EeDistributionCreator object do:
+ MatrixK* kXSecMatrix_PDG14;
+
+and then in .cxx
+EeDistributionCreator::EeDistributionCreator(TFile* fluxFile)
+   : kfluxFile(fluxFile), kXSecMatrix_PDG14(nullptr){
+}
+
+ kXSecMatrix_PDG14 = new MatrixK("MatrixK_PDG14", {5,6,7,8}, 6,0,10 ); for creating an object, remember the 'new'
