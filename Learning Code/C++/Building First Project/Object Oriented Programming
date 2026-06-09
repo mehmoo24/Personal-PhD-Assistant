@@ -4,6 +4,29 @@ Project: Creating a machinery for a combined flux constraint
 ==> Returning object by VALUE vs returning object by POINTER:
 -> More useful to return object by pointer because then can initialize it to null-ptr when another object has this object
 as one of its member functions
+--> Should learn smart pointers after this, advantage is they automatically take care of memory (learning trajectory: 
+object, pointer, smart pointer)
+
+DEBUG #1: 
+your class does not have a default constructor, so it errors
+So this works:
+EeDistributionCreator::EeDistributionCreator(TFile* fluxFile)
+    : kfluxFile(fluxFile),
+      kXSecMatrix_PDG14("Test2", {2,3,4}, 6,0,10)
+{
+}
+
+This fails:
+EeDistributionCreator::EeDistributionCreator(TFile* fluxFile)
+    : kfluxFile(fluxFile)
+{
+    kXSecMatrix_PDG14 = MatrixK("Test2", {2,3,4}, 6,0,10);
+}
+
+because kXSecMatrix_PDG14 needed to exist before the { } body started.
+SUPER IMPORTANT:
+initializer list = build the member
+constructor body = modify the member after it already exists
 
 --> I created an object called MatrixK for the cross section mapping between electron energy and neutrino energy bins
 --> Now, I created another object called EeDistributionCreator, this is supposed to be a massive tool that writes all
