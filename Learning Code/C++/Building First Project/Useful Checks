@@ -1,0 +1,17 @@
+std::vector<double> EeDistributionCreator::GetNeutrinoEnergyBinning(int pdg){
+   std::vector<double> bins;
+   TH2D* flux = nullptr;
+   if (pdg == 14){ flux = kFluxDistr_PDG14; }
+   else if (pdg == -14) { flux = kFluxDistr_PDGminus14; }
+   else if (pdg == 12) { flux = kFluxDistr_PDG12; }
+   else if (pdg == -12) { flux = kFluxDistr_PDGminus12; }
+
+   if (!flux) return bins; // don't want to call GetNbins if nullptr
+   
+   for(int i=1;i<=flux->GetNbinsX()+1;i++){
+         bins.push_back(flux->GetXaxis()->GetBinLowEdge(i));
+   }
+   return bins;
+}
+
+
