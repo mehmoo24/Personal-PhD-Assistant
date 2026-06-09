@@ -1,0 +1,15 @@
+1. Every time create "new" object in any function of a class, make sure to delete it in the destructor of that class
+
+EeDistributionCreator::~EeDistributionCreator(){
+   delete kXSecMatrix_PDG14;
+   delete kXSecMatrix_PDGminus14;
+   delete kXSecMatrix_PDG12;
+   delete kXSecMatrix_PDGminus12;
+
+}
+
+2. For raw pointers, delete the old objects before using new to point the pointer at something else, since it will be a memory
+leak due to the fact that the only pointer pointing at that object will now be pointing at something else
+
+3. Initialize the raw pointers to be nullptr since deleting it will be safe in that case
+
