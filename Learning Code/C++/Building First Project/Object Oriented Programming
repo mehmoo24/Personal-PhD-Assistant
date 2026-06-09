@@ -1,0 +1,8 @@
+Project: Creating a machinery for a combined flux constraint
+
+--> I created an object called MatrixK for the cross section mapping between electron energy and neutrino energy bins
+--> Now, I created another object called EeDistributionCreator, this is supposed to be a massive tool that writes all
+the TH2D histograms containing the cross section matching for each flavour --> 4 flavours to the root file at once
+----> This tool takes as input a flux distribution, according to that distribution it determines the neutrino energy binning
+on the x axis of this matrix (the columns of the matrix) and it takes in measurements and according to that determines the 
+y axis binning of the matrix (the rows of the matrix)
