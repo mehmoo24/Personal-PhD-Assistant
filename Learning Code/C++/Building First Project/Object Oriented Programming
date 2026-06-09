@@ -1,6 +1,10 @@
 Project: Creating a machinery for a combined flux constraint
 2026-06-09_WEEK
 
+==> Returning object by VALUE vs returning object by POINTER:
+-> More useful to return object by pointer because then can initialize it to null-ptr when another object has this object
+as one of its member functions
+
 --> I created an object called MatrixK for the cross section mapping between electron energy and neutrino energy bins
 --> Now, I created another object called EeDistributionCreator, this is supposed to be a massive tool that writes all
 the TH2D histograms containing the cross section matching for each flavour --> 4 flavours to the root file at once
