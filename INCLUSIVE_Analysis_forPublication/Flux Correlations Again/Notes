@@ -1,1 +1,16 @@
 Running an overleaf document: see Flux Correlations
+
+Data Preservation Meeting: 2026-06-10: 
+https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=34462&filename=David_MINERvA_Data_Pres_June_10_2026.pdf&version=1
+
+--> P8 LE samples will become available soon!
+
+--> The focusing uncertainties turned off in LE except for the right sign muons since there were dedicated focusing 
+uncertainties for the other flavours in ME but not in LE
+-----> So they were turned off but decisions need to be made on what the correct appraoch is
+--> In terms of breaking focusing correlations yes need to do that for the right sign muons between LE and ME but that's
+the same as breaking the focusing correlation between FHC and RHC. Can also kind of think about the other flavours for LE  
+since just turning off the focusing uncertainties for those may not be the right thing to do (David)
+-> aside note: maybe some decorrelated structure between focusing uncertainties of right sign muons between LE and ME
+since fewer focusing uncertainties in LE
+--> Interesting: Slide 5, Right hand side shows the focusing uncertainties turned off for LE wrong sign muons
