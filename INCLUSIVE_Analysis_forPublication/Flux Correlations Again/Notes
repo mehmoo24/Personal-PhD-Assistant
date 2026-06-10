@@ -14,3 +14,7 @@ since just turning off the focusing uncertainties for those may not be the right
 -> aside note: maybe some decorrelated structure between focusing uncertainties of right sign muons between LE and ME
 since fewer focusing uncertainties in LE
 --> Interesting: Slide 5, Right hand side shows the focusing uncertainties turned off for LE wrong sign muons
+
+TLDR: Break flux focusing uncertainties correlations between ME and LE as well (alongside RHC and FHC). 
+Keep in mind that focusing uncertainties for now turned off for LE wrong sign muons, decision needs to be made on what right
+thing to do is for that
