@@ -1,0 +1,15 @@
+For now, popped off MuonAngleYResolution, MuonAngleXResolution
+--> Add back on MuonAngleYResolution w/ appropriate treatement
+--> Leave off MuonAngleXResolution
+
+NuFHC LE
+/exp/minerva/data/users/mmehmood/default_anaysis_loc/Published_Result/nuFHC_LE_MnvTunev1/xsec_notBinWidthNorm_minerva1Flux_10Iters_BlowupCorrected.root
+
+NuFHC ME
+/exp/minerva/data/users/mmehmood/default_anaysis_loc/Published_Result/nuFHC_ME_MnvTunev1/xsec_notBinWidthNorm_me1Aflux_10Iters_BlowupCorrected.root
+
+AntinuRHC LE
+/exp/minerva/data/users/mmehmood/default_anaysis_loc/Published_Result/antinuRHC_LE_MnvTunev1/xsec_notBinWidthNorm_10Iters_BlowupCorrected.root
+
+AntinuRHC ME
+/exp/minerva/data/users/mmehmood/default_anaysis_loc/Published_Result/antinuRHC_ME_MnvTunev1/xsec_notBinWidthNorm_me6AFlux_10Iters_BlowupCorrected.root
