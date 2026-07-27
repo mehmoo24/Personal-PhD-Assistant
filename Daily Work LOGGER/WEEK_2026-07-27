@@ -6,3 +6,5 @@ The matrix size needed to be the number of flux bins there will be on the x axis
 we will take the number of flux bins + 2 and put them on the x axis so that the overflow and underflow are explicitly part of the matrix. 
 
 --> When multiplying by the flux histogram, we will start the index at the second neutrino energy bin on the x axis and stop the index at the second last neutrino energy bin on the x axis
+
+--> FOR THE UF and OF just made the UF bin start at 0 and made the OF be whatever is in the last bin + 1000
