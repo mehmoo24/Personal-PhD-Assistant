@@ -1,0 +1,6 @@
+Monday, July 27, 2026
+
+--> The cross-section matrix isn't having the overflow and underflow getting filled in
+
+The matrix size needed to be the number of flux bins there will be on the x axis and the number of electron energy bins there will be on the y axis. Now, for overflow and underflow, 
+we will take the number of flux bins + 2 and put them on the x axis so that the overflow and underflow are explicitly part of the matrix. 
