@@ -31,3 +31,16 @@ Next Steps: -> Call the function to write ME flux files
             -> Determine the mapping for the OF and UF for the various histograms.
             -> Write out a plan to investigate what the error looks like on those bins. 
             -> Add the overflow content to the last bin, added the overflow error to the last bin error, cleared the overflow
+
+
+For the radiative corrections:
+--> Added a function that allows for the EeDistributionCreator object to be called and write the radiative correction
+for all 4 flavours for a particular neutrino energy to a file
+--> The function is called: // write the rad correction for fixed neutrino energy to file
+      void WriteRadCorrToFileForFixedEnu(TString path, TString output_name, double Enu);
+
+--> It gets called be doing (after the radiative correction objects get initialized obviously so that the radiative correction
+function is loaded for each mode)
+creator.WriteRadCorrToFileForFixedEnu(output_path, "RadCorr_Enu10GeV",10.0);
+
+--> And then it's plotted by calling the plotting script several times using: . plotRad.sh
