@@ -10,8 +10,13 @@ Deborah
 --> Review what I've learned, where the next steps are, document
 
 
-Question: What do the total electron energy distributions look like for the 4 modes?
-Tried: 
+Question: What do the total electron energy distributions look like for the 4 modes? Investigate how to cap the bin edge at 
+20 GeV, but put everything above 20 GeV into that bin. I need the flux histograms for the 4 modes with the 4 flavours 
+Tried: Added the overflow content to the last bin, added the overflow error to the last bin error, cleared the overflow
 Learned: 
 Produced:
-Next Steps:
+Next Steps: -> Change the defn of EeDistributionCreator and the LoadFluxHistos() method to correctly  be loading in 
+               the flux histograms and make the EeDistributions with the loaded histograms w/o fixing the OF/UF business
+               to ensure the flux histograms are being read in correctly
+            -> Determine the mapping for the OF and UF for the various histograms.
+            -> Write out a plan to investigate what the error looks like on those bins. 
