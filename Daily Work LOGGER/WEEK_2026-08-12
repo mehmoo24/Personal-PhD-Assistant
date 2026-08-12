@@ -11,18 +11,23 @@ Deborah
 
 
 Question: What do the total electron energy distributions look like for the 4 modes? Investigate how to cap the bin edge at 
-20 GeV, but put everything above 20 GeV into that bin. I need the flux histograms for the 4 modes with the 4 flavours 
+20 GeV, but put everything above 20 GeV into that bin. I need the flux histograms for the 4 modes with the 4 flavours. 
 
-Tried: Added the overflow content to the last bin, added the overflow error to the last bin error, cleared the overflow
+Tried: Got gen2thin files from Quinn and created a function that saves those fluxes to a file and then a plotting script
+for plotting them
 
 Learned: Can create a function of an object and then pass it in inputs after the object gets initialized to get the 
 function to do something. Like can write all of the fluxes from external input to create a flux file just using the object
-that was initialized by using a function created for that object
+that was initialized by using a function created for that object. Can check the GetMaximum() for the max y value to 
+adjust the y scale when plotting multiple histos on same plot.
 
-Produced:
+Produced: Produced the plots for LE fluxes for all 4 flavours in LE RHC, LE FHC
 
-Next Steps: -> Change the defn of EeDistributionCreator and the LoadFluxHistos() method to correctly  be loading in 
+Next Steps: -> Call the function to write ME flux files
+            -> Plot the ME fluxes with the plotting script
+            -> Change the defn of EeDistributionCreator and the LoadFluxHistos() method to correctly  be loading in 
                the flux histograms and make the EeDistributions with the loaded histograms w/o fixing the OF/UF business
                to ensure the flux histograms are being read in correctly
             -> Determine the mapping for the OF and UF for the various histograms.
             -> Write out a plan to investigate what the error looks like on those bins. 
+            -> Add the overflow content to the last bin, added the overflow error to the last bin error, cleared the overflow
