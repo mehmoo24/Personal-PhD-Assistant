@@ -56,3 +56,12 @@ Thursday, August 13, 2026
 --> Write out how the machinery is working: Update the machinery to how it should be working first
     -about the POT
 
+--> What I got done:
+--> Sorted out business with OF and UF and checked that able to reproduce the same solutions as before with the matrices
+--> Added up the 4 electron energy distributions to get the total one and plotted them
+--> Working on getting the Ee distributions for all of the universes, solved the bug with the errorband name, currently
+on the step of looping over and filling in each universe for the Ee distribution, that is currently crashing, also need to
+see what number of universes should be used for each flavour in a particular mode: diff # of flux universes for diff fluxes?
+--> TODO: Can write up summary of the overflow and underflow notes from today
+--> need to go over how to better structure the code
+
