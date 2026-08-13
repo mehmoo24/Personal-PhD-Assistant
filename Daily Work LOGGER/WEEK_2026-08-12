@@ -64,4 +64,5 @@ on the step of looping over and filling in each universe for the Ee distribution
 see what number of universes should be used for each flavour in a particular mode: diff # of flux universes for diff fluxes?
 --> TODO: Can write up summary of the overflow and underflow notes from today
 --> need to go over how to better structure the code
+--> Immediate next step: run the code and see if the error band is there for Ee in the rootfile. 
 
