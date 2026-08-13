@@ -51,7 +51,7 @@ Thursday, August 13, 2026
 
 --> Need some blurb on the flux files: gen2thin --> FOR NOW: Just note down that using the gen2thin flux
     ME is the gen2thin fluxes from FRW and not the rearranged_universes
---> Send the code to git
+--> Send the code to git: ENTRY made in git specifics folder
 --> Get the total electron energy distributions for each mode for all the universes
 --> Write out how the machinery is working: Update the machinery to how it should be working first
     -about the POT
