@@ -44,3 +44,15 @@ function is loaded for each mode)
 creator.WriteRadCorrToFileForFixedEnu(output_path, "RadCorr_Enu10GeV",10.0);
 
 --> And then it's plotted by calling the plotting script several times using: . plotRad.sh
+
+**************************
+Thursday, August 13, 2026
+**************************
+
+--> Need some blurb on the flux files: gen2thin --> FOR NOW: Just note down that using the gen2thin flux
+    ME is the gen2thin fluxes from FRW and not the rearranged_universes
+--> Send the code to git
+--> Get the total electron energy distributions for each mode for all the universes
+--> Write out how the machinery is working
+    -about the POT
+
