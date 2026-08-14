@@ -66,3 +66,16 @@ see what number of universes should be used for each flavour in a particular mod
 --> need to go over how to better structure the code
 --> Immediate next step: run the code and see if the error band is there for Ee in the rootfile. 
 
+***************************
+Friday, August 14, 2026
+***************************
+
+--> Get the error propagated to the electron energy distributions
+--> Business with how many flux universes there should be
+
+--> PICK UP by implementing the temporary solution for the Ee distributions for the other PDGs and adding up to get the 
+    total Ee distribution
+--> Can make plots of the spread of the errors
+--> Can pull up the plots that Luis has
+--> Spend an hour a day fixing the implementation of what I already have, should take about a month to fix
+
