@@ -11,3 +11,11 @@ Should have as ready input:
 1. Files with the Ee Distributions for all 4 modes
 2. The 4 flux files
 
+PICK UP POINT: Get the formulas for the log likelihood and implement them, cool thing is then create a histo
+and fill in with the values that put in a vector when getting the loglikelihood of each universe, get three
+histograms like that
+TODO:
+--> loglikelihood distributions, need to get Luis' expected distribution and read it in
+--> covariance matrices
+--> other distribution Kevin said, send those off
+--> have the writeup for these
