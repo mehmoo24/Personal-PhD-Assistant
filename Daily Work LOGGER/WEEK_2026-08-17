@@ -1,0 +1,12 @@
+Monday, August 17, 2026
+
+--> Get the Ee distributions using the method that I already have --> it causes a memory crash but I get the Ee distribution
+for the CV and the universes
+GOAL:
+--> Get the total Ee distribution
+--> Get the plot with the uncertainty plotted out on the plot
+
+Should have as ready input:
+1. Files with the Ee Distributions for all 4 modes
+2. The 4 flux files
+
