@@ -1,6 +1,6 @@
 To create new repo:
 --> First create it on the website
-Then go to the terminal and  in your directory you want to commit
+Then go to the terminal and  in your repository you want to commit
 
 1. Create a .gitignore
 Ex. https://gist.github.com/octocat/9257657
