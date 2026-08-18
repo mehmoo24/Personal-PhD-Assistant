@@ -1,1 +1,8 @@
+For Log do:
+import math
+math.log(2) # this is log base e
+math.log10(2) # this is log base 10
 
+for factorial do:
+import math
+math.factorial(5)
