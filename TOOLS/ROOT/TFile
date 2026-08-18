@@ -1,0 +1,18 @@
+**********
+Python
+**********
+
+
+
+**********
+C++
+**********
+
+#include <TFile.h>
+TFile* file = TFile::Open("data.root", "READ");
+
+// Read an object from the file
+TH1F* hist = file->Get<TH1F>("myHistogram");
+
+file->Close();
+delete file;
