@@ -1,0 +1,16 @@
+A std::vector can change size while your program runs:
+#include <vector>
+
+std::vector<double> energies;
+energies.push_back(10.5);
+std::cout << energies[0] << std::endl;  // 10.5
+std::cout << energies.size() << std::endl;
+
+for (double energy : energies) {
+    std::cout << energy << std::endl;
+}
+
+for (std::size_t i = 0; i < energies.size(); i++) {
+    std::cout << "Event " << i
+              << ": " << energies[i] << std::endl;
+}
