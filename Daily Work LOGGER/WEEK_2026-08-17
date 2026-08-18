@@ -45,6 +45,8 @@ it can get computationally hard
 * Bernoulli is for a yes or no type result
 * Binomial is a bunch of bernoulli results put together, each one individually was a yes or no
 Q: What is poisson?
+Q: For the bin log-likelihood, how come we add for all the bins instead of multiplying? and how does subtracting
+the two give the shape log-likelihood?
 Q: The progression of the formulas to get the one that is finally for comparing electron energy distribution w/
 the other one
 --> Covariance matrices
