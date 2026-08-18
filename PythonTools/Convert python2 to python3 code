@@ -1,4 +1,0 @@
-2to3 -w compute_flux.py
-
-	•	2to3 is a tool that scans your Python 2 code and updates it for Python 3.
-	•	The -w flag makes changes in place.

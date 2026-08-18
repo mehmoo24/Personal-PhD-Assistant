@@ -1,3 +1,0 @@
-import ROOT
-print(hasattr(ROOT, "FluxCalculatorLoop"))
-print(hasattr(ROOT.PlotUtils, "FluxCalculatorLoop"))
