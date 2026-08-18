@@ -12,7 +12,7 @@ C++
 TFile* file = TFile::Open("data.root", "READ");
 
 // Read an object from the file
-TH1F* hist = file->Get<TH1F>("myHistogram");
+PlotUtils::MnvH1D* EePred = dynamic_cast<PlotUtils::MnvH1D*>(f_EePred->Get(histo_name));
 
 file->Close();
 delete file;
