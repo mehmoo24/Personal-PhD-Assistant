@@ -1,3 +1,11 @@
+Structure:
+8-8:30am: Review Physics + Questions about concepts
+8:30am - 9:30am: coding practice / fix structure of code
+9:30am - 9:40am: walk to library
+9:40am - 12:40pm: work block
+12:40pm - 1:10pm: lunch
+1:10pm - 1:45pm: review + writing block
+
 Monday, August 17, 2026
 
 --> Get the Ee distributions using the method that I already have --> it causes a memory crash but I get the Ee distribution
@@ -23,5 +31,21 @@ TODO:
 
 IN Notebook by the end of the week:
 --> Section on likelihood and log-likelihood
+* the likelihood function tells us that the data is a given and the model is what varies, we determine the 
+likelihood that the data is well described by the chosen parameters of the model. Even for a good likelihood, it
+doesn't mean that the model was a good choice, we can have the wrong model and still find the best values of the
+wrong model that best describe the data observed. so it's out of the parameters given, which ones best describe 
+the data. Ex. best shoe out of a small set of shoes, the best shoe may still be too small
+* We are multiplying probabilities together because the multiplication is for independent observations
+* The log is a good approach because it changes the multiplication into addition which is useful when there's
+a lot of observations and need to multiply a lot of numbers together, the product can get really small and then
+it can get computationally hard
+* Need to pick a model when computing the likelihood
 --> Section on 4 distributions and when to use them: Bernoulli, Binominal, Poisson, Gaussian
+* Bernoulli is for a yes or no type result
+* Binomial is a bunch of bernoulli results put together, each one individually was a yes or no
+Q: What is poisson?
+Q: The progression of the formulas to get the one that is finally for comparing electron energy distribution w/
+the other one
 --> Covariance matrices
+Q: Don't quite understand the formula
