@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+declare -A DATASETS=(
+  ["/pnfs/minerva/persistent/users/maria/ME1A"]="ME1A"
+  ["/pnfs/minerva/persistent/users/maria/ME6A"]="ME6A"
+  ["/pnfs/minerva/persistent/users/maria/LE"]="LE"
+)
+
+for path in "${!DATASETS[@]}"; do
+  label="${DATASETS[$path]}"
+
+  echo "Processing $label at $path"
+  ./run_analysis.sh "$path" "$label"
+done
