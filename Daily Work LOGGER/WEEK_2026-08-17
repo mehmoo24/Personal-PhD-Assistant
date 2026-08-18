@@ -55,3 +55,4 @@ Q: Interpretation of the results
 
 
 TODO: The code for breaking the flux correlations, and run it even when running with the FRW flux?
+Q: Why to use lgamma(n+1) instead of the factorial?
