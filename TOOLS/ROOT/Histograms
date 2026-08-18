@@ -1,1 +1,14 @@
+PYTHON:
+****** For bin edges:
+from array import array
+bins_A = flux_A.GetXaxis().GetXbins()
+bins_array = array('d', bins_A)
+****** For number of bins:
+flux_A.GetNbinsX()
+OR
+bins_A = flux_A.GetXaxis().GetXbins()
+print(len(bins_A))
 
+****** Declare a histogram
+PYTHON:
+cov_matrix = ROOT.PlotUtils.MnvH2D("Cov", "Cov", flux_A.GetNbinsX(), bins_array, flux_A.GetNbinsX(), bins_array)
