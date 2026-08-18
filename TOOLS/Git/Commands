@@ -6,13 +6,12 @@ Then go to the terminal and  in your repository you want to commit
 Ex. https://gist.github.com/octocat/9257657
 BE SURE TO ADD *.png and *.root files to it as well!
 
-2. git init
-3. git add README.md 
-4. git commit -m "first commit"
-5. git branch -M main
-6. git remote add origin git@github.com:mehmoo24/ComputeFluxConstraint.git
-7. git push -u origin main
+git init                 → make local directory a Git repo
+git add .                → stage files
+git commit -m "first commit"               → create local commit
+git branch -M main                         → name branch "main"
+git remote add origin git@github.com:mehmoo24/ComputeFluxConstraint.git    → connect local repo to GitHub
+git pull --rebase origin main          → CAN SKIP if nothing there otherwise: bring down existing GitHub commits
+git push -u origin main                → upload your local commits
 
-If the website repo already has for ex. a README file then do:
-8. git pull --rebase origin main
 
