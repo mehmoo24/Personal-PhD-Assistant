@@ -9,6 +9,11 @@ OR
 bins_A = flux_A.GetXaxis().GetXbins()
 print(len(bins_A))
 
-****** Declare a histogram
+****** Declare a histogram**************
 PYTHON:
 cov_matrix = ROOT.PlotUtils.MnvH2D("Cov", "Cov", flux_A.GetNbinsX(), bins_array, flux_A.GetNbinsX(), bins_array)
+
+C++:
+#include <TH1F.h>
+TH1F* hist = new TH1F("hist", "My Histogram", 100, 0.0, 10.0);
+*****************************************
