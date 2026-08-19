@@ -71,7 +71,7 @@ to give us the data?
 Q: how are some of Luis' weights higher than 1?
 
 
-Produced: I got my set of weights for the constraint using how well the universes fit the data, and they all add up to 1000
+Produced: I got my set of weights for the constraint using how well the universes fit the data, and they all add up to 1
 Tried: I tried to make the fractional uncertainty plot, but it's not making any sense. 
 Learned: the likelihood gets used with bayes' theorem to come up with the weights for the universes, the individual universes
 don't change but the CV does when we apply the weights which add up to one. we used a numerical trick by subtracting off
