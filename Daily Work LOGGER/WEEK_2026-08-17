@@ -66,4 +66,5 @@ TODO: Add in the IMD cross-section
 
 Q: What are the existing weights of the universes?
 Q: how does using the likelihood compare to using a chi2 weight?
-Q: How to derive Bayes' theorem?
+Q: How to derive Bayes' theorem? The denominator gives us the total probability, but if none of the universes are likely
+to give us the data?
