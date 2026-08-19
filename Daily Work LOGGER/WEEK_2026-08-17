@@ -69,3 +69,8 @@ Q: how does using the likelihood compare to using a chi2 weight?
 Q: How to derive Bayes' theorem? The denominator gives us the total probability, but if none of the universes are likely
 to give us the data?
 Q: how are some of Luis' weights higher than 1?
+
+PICK UP point: where is the constraint getting applied in constrainHisto? my constrained CV appears to look like the 
+constrained CV BUT weird things happening for the universes, the universes don't change because the CV prediction just
+changed, but then how do we get the appropriate fractional uncertainty?
+--> I got my set of weights for the constraint using how well the universes fit the data, and they all add up to 1000
