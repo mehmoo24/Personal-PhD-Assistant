@@ -14,3 +14,12 @@ for (std::size_t i = 0; i < energies.size(); i++) {
     std::cout << "Event " << i
               << ": " << energies[i] << std::endl;
 }
+
+
+vector<int> v = {10, 20, 30}; // So for a vector of size n, valid indices are 0 through n - 1.
+cout << v[0];       // 10
+cout << v.front();  //     first element without using an index, 10
+
+NOTES:
+--> Use .push_back when not initialized yet, otherwise create the size and then can use test[elem] to access a particular
+element
