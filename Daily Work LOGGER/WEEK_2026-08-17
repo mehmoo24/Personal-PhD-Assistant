@@ -59,5 +59,7 @@ Q: Why to use lgamma(n+1) instead of the factorial?
 
 Wednesday, August 19, 2026
 -> Run Luis' code
--> See the impact of running Luis' code on shuffled universes
+-> See the impact of running Luis' code on shuffled universes: Get the constraint for the shuffled univs
 -> Send off the output
+
+TODO: Add in the IMD cross-section
