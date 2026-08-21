@@ -87,3 +87,10 @@ somewhere else in the code that checks whether the weights are normalized? and n
 --> The universes stay the same even after constraining since it's the weight that changes for the universe and not
 the value
 --> So far when I plot out the fractional uncertainty for the constrained flux, it looks like a mess. 
+--> Interesting piece of info: constraining and then plotting the fractional uncertainty breakdown for me6B works!
+* The FRW ME1N and ME1N1M1D does not work! 
+--> How come applying the constraint to Quinn's p8 flux yields a plot of the fractional uncertainty but making a 
+plot of the fractional uncertainty for flux reweighter doesn't yield a fractional uncertainty plot??
+--> We get the weights using the FRW all flavours since Quinn doesn't have the ME wrong sign fluxes, then we
+can apply the weights to Quinn's flux to get a plot of the constrained fluxes usign these new weights
+Q: How come the flux uncertainty is higher than the total on the plots?
