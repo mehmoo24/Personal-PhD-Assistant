@@ -80,3 +80,10 @@ too small
 Exact Next Step: where is the constraint getting applied in constrainHisto? my constrained CV appears to look like the 
 constrained CV BUT weird things happening for the universes, the universes don't change because the CV prediction just
 changed, but then how do we get the appropriate fractional uncertainty?
+
+Friday, August 21, 2026
+--> Normalizing the weights or not normalizing them doesn't impact how the constrained CV changes  ... why is that? 
+somewhere else in the code that checks whether the weights are normalized? and normalizes them if they aren't??
+--> The universes stay the same even after constraining since it's the weight that changes for the universe and not
+the value
+--> So far when I plot out the fractional uncertainty for the constrained flux, it looks like a mess. 
