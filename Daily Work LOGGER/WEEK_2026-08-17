@@ -124,6 +124,9 @@ These flux constraints get applied to:
 --> Quinn's p8 ME1N
 --> Quinn's p8 ME6B
 
+* Make the plots that Deborah said
+* Submit the code for running over P8 for ME numu and numubar and LE numu and numubar
+
 Q: How come the flux uncertainty is higher than the total on the plots?
 Q: Figure out how the CV is changed, but then how the are the universes changed when we constrain the flux, this
 would tie in with why the fractional uncertainty plot isn't working for constrained neutrino mode of FluxReweighter??,
