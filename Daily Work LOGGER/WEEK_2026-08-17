@@ -108,3 +108,17 @@ even mean? Not sure that it's the number of universes, could also be  the bin ra
 can call that on the MnvH1D* instead of calling it on the vertical error band ...
 //! Get a single Systematical Covariance Matrix from the map
       TMatrixD GetSysCorrelationMatrix(const std::string& name, bool cov_area_normalize = false) const;
+
+Summary of how to get the flux constraint:
+1. There's the flux constraint (combined) from Luis (this includes the combined nue + IMD). 
+2. There's the flux constraint that I created which includes the combined nue (incorrect radiative corrections)
+3. There's the flux constraint that I created which includes the combined nue (this time having broken the correlations
+between neutrino mode and antineutrino mode)
+TODO: Create the correct radiative corrections
+TODO: Put in the IMD
+TODO: Quinn doesn't have predictions for nue and nuebar for ME so the constraint was created using the FluxReweighter 
+flux
+
+These flux constraints get applied to:
+--> Quinn's p8 ME1N
+--> Quinn's p8 ME6B
