@@ -99,5 +99,5 @@ Useful links for the uncertainties: https://minerva-docdb.fnal.gov/cgi-bin/sso/R
 Useful links for the uncertainties: https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=10076&filename=PlotUtils_to_handle_flux_contraint.pdf&version=2
 
 Learned: MnvVertErrorBand.h class shows that can retrieve individual weights as well as all of the weights for the
-universes
+universes, GetUnivWgt retrieves the weight from the constraint
 Q: SetUnivWgt isn't in MnvFluxConstraint.cxx, I would've thought it would've been there for when we load the constraint??
