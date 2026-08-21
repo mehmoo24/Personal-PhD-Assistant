@@ -9,3 +9,6 @@ for (int univ = 0; univ < 1000; ++univ) {
 }
 
 
+TO create a pointer where it doesn't exist: 
+   TH1D cv_obj = flux_ref->GetCVHistoWithStatError();
+   TH1D* cv_histo =  &cv_obj;
