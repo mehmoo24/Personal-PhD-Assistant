@@ -101,3 +101,7 @@ Useful links for the uncertainties: https://minerva-docdb.fnal.gov/cgi-bin/sso/R
 Learned: MnvVertErrorBand.h class shows that can retrieve individual weights as well as all of the weights for the
 universes, GetUnivWgt retrieves the weight from the constraint
 Q: SetUnivWgt isn't in MnvFluxConstraint.cxx, I would've thought it would've been there for when we load the constraint??
+
+Learned: We can draw the correlation matrix for a particular error band like this: flux_E_cvweighted->GetVertErrorBand("Flux")->CalcCorrMx().Draw("COLZ")
+but this has the universe number on the axes instead of the neutrino energy ... is that helpful or what does it 
+even mean?
