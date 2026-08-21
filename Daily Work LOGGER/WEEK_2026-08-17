@@ -100,3 +100,4 @@ Useful links for the uncertainties: https://minerva-docdb.fnal.gov/cgi-bin/sso/R
 
 Learned: MnvVertErrorBand.h class shows that can retrieve individual weights as well as all of the weights for the
 universes
+Q: SetUnivWgt isn't in MnvFluxConstraint.cxx, I would've thought it would've been there for when we load the constraint??
