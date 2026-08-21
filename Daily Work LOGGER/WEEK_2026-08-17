@@ -143,9 +143,15 @@ STEPS:
 1. First, I created the shuffled universes for neutrino mode, by offsetting by 45 the gen2thin files for ALL 4 flavours
 There's a file that exists for all 4 fluxes: Fluxes_FRW_ME_FHC.root
 -> I changed the function that writes the fluxes to currently be writing the shuffled fluxes and then ran the code, since
-I'd changed the rootfile name in the function too, it was now writing the shuffled flux
+I'd changed the rootfile name in the function too, it was now writing the shuffled flux --> There was trouble with writing
+the function, so I dit it manually for each of the 4 rootfiles: /exp/minerva/app/users/mmehmood/MAT_AL9/BreakCorrelation/FLUX/BreakCorrelation/run.sh
+--> THE PROBLEM was with the fact that the beamfocusing universes should be the ones matched to see if the correlation
+was broken!!
+
 2. I changed the neutrino flux file to be the shuffled one and changed the number of universes to 1000 to get the Ee 
-distribution for 1000 shuffled flux universes
+distribution for 1000 shuffled flux universes, by changing hte number of universes in the make_xsec file and then passing 
+in the appropriate broken flux nuFHC ME file in the .run file
+
 3. I changed the name of the Ee distribution file for neutrinos in FHC to be the shuffled one for 1000 universes and ran
 the code to get the log-likelihood weights for the case where the neutrino fluxes are shuffled and the antineutrino ones 
 are not and they are combined into the 13 bins distribution for Ee
