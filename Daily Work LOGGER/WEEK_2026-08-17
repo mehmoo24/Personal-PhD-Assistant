@@ -134,6 +134,9 @@ but for the unconstrained neutrino mode of FluxReweighter, the fractional uncert
 TODO: Need to fix up the implementation of the machinery that creates the Ee Distributions
 TODO: Need to work on the deliverable for Kevin, run over p8 and get the covariance matrices that he needs
 TODO: There's the fix from Quinn and what David is saying about that
+TODO: REALLY IMPORTANT: even though my electron energy distributions have the error bands, the error on the bins is showing
+up as 0, whereas the measurement does of course have the error on it. I get it that the universes are computed individually
+for the electron energy distributions, but collectively they should still contribute to an error on the bin
 
 Monday
 --> Meeting with Deborah
