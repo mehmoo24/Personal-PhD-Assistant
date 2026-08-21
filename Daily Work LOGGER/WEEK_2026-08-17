@@ -133,3 +133,9 @@ would tie in with why the fractional uncertainty plot isn't working for constrai
 but for the unconstrained neutrino mode of FluxReweighter, the fractional uncertainty plot does make sense
 TODO: Need to fix up the implementation of the machinery that creates the Ee Distributions
 TODO: Need to work on the deliverable for Kevin, run over p8 and get the covariance matrices that he needs
+
+Monday
+--> Meeting with Deborah
+--> The 4 cross-sections using the p8 tuples that finished running
+--> Figure out the correlation matrices that we need for the deliverables
+--> Formulate plan for how to design getting the Ee distributions
