@@ -137,6 +137,11 @@ TODO: There's the fix from Quinn and what David is saying about that
 TODO: REALLY IMPORTANT: even though my electron energy distributions have the error bands, the error on the bins is showing
 up as 0, whereas the measurement does of course have the error on it. I get it that the universes are computed individually
 for the electron energy distributions, but collectively they should still contribute to an error on the bin
+TODO: Figure out the business with re-ordering the universes, currently dealing with all 1000
+
+STEPS: 
+1. First, I created the shuffled universes for neutrino mode, by offsetting by 45 the gen2thin files for ALL 4 flavours
+There's a file that exists for all 4 fluxes: Fluxes_FRW_ME_FHC.root
 
 Monday
 --> Meeting with Deborah
