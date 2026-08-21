@@ -128,4 +128,5 @@ Q: How come the flux uncertainty is higher than the total on the plots?
 Q: Figure out how the CV is changed, but then how the are the universes changed when we constrain the flux, this
 would tie in with why the fractional uncertainty plot isn't working for constrained neutrino mode of FluxReweighter??,
 but for the unconstrained neutrino mode of FluxReweighter, the fractional uncertainty plot does make sense
-
+TODO: Need to fix up the implementation of the machinery that creates the Ee Distributions
+TODO: Need to work on the deliverable for Kevin, run over p8 and get the covariance matrices that he needs
