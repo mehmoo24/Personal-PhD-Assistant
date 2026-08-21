@@ -98,3 +98,5 @@ Q: How come the flux uncertainty is higher than the total on the plots?
 Useful links for the uncertainties: https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=10281&filename=2014-09-02%20flux%20constraint%20implementation.pdf&version=2
 Useful links for the uncertainties: https://minerva-docdb.fnal.gov/cgi-bin/sso/RetrieveFile?docid=10076&filename=PlotUtils_to_handle_flux_contraint.pdf&version=2
 
+Learned: MnvVertErrorBand.h class shows that can retrieve individual weights as well as all of the weights for the
+universes
