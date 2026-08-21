@@ -1,0 +1,11 @@
+->h_flux_univ is a local pointer variable, while Clone() creates a new histogram object in memory on every iteration.
+
+for (int univ = 0; univ < 1000; ++univ) {
+
+    TH1D* h_flux_univ =
+        static_cast<TH1D*>(h_flux_dummy->Clone(Form("h_flux_univ_%d", univ)));
+
+    flux_univs.push_back(h_flux_univ);
+}
+
+
