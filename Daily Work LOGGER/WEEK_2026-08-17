@@ -104,4 +104,7 @@ Q: SetUnivWgt isn't in MnvFluxConstraint.cxx, I would've thought it would've bee
 
 Learned: We can draw the correlation matrix for a particular error band like this: flux_E_cvweighted->GetVertErrorBand("Flux")->CalcCorrMx().Draw("COLZ")
 but this has the universe number on the axes instead of the neutrino energy ... is that helpful or what does it 
-even mean?
+even mean? Not sure that it's the number of universes, could also be  the bin range. Also, h->GetTotalCorrelationMatrix().Draw("COLZ")
+can call that on the MnvH1D* instead of calling it on the vertical error band ...
+//! Get a single Systematical Covariance Matrix from the map
+      TMatrixD GetSysCorrelationMatrix(const std::string& name, bool cov_area_normalize = false) const;
