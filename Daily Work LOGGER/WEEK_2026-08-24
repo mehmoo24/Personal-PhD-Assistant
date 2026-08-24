@@ -3,3 +3,11 @@ Monday, August 24, 2026
 
 
 Q: How is TGraph different from Interpolating?
+
+Binning question needs to be answered today with the writeup for the strategy and the plots that we used to get the binning.
+Finish at 3pm
+
+GOALS FOR THE WEEK, by Friday night:
+-> Correct representation in the code of how the constraint should be derived
+-> Skeleton writeup of the constraint with the plots
+-> Derivation of the constraint from first principles 
