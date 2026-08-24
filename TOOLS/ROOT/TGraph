@@ -1,0 +1,10 @@
+Super useful for reading in a .csv file:
+auto f1_Graph = new TGraph(f1FilePath, "%lg,%lg"); // reading floating point numbers from .csv file which is comma separated
+
+and then to get the x-vector we can do:
+// 1. Get the total number of points
+    int n_points = graph->GetN();
+
+    // 2. Get pointers to the internal X and Y arrays
+    double* x_array = graph->GetX();
+    double* y_array = graph->GetY();
