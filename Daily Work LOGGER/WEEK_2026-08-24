@@ -11,3 +11,18 @@ GOALS FOR THE WEEK, by Friday night:
 -> Correct representation in the code of how the constraint should be derived
 -> Skeleton writeup of the constraint with the plots
 -> Derivation of the constraint from first principles 
+
+Wednesday, August 26, 2026 (finish at 4pm)
+--> Add in the IMD constraint
+--> Add in the LE result
+FIRST:
+--> Make the binning plots for determining binning in y
+--> Make the binning plots for determining binning in Enu
+--> Apply the constraint not to Quinn's ME1N but instead to ME1N from gen2thin and ME6B from gen2thin
+--> Make the plot again and fix the colours on the plot
+--> Make the ratio plots for the CV and the fractional uncertainty
+--> Make the residual plots which are "measured minus predicted", put them in a histogram and put the residuals on the x axis
+with the number of universes on the y axis
+
+AFTER meeting with Deborah:
+--> Make the plots that Deborah said to make in the email
