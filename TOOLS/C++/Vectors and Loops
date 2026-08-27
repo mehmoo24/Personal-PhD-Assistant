@@ -23,3 +23,6 @@ cout << v.front();  //     first element without using an index, 10
 NOTES:
 --> Use .push_back when not initialized yet, otherwise create the size and then can use test[elem] to access a particular
 element
+
+EQUALLY SPACED POINTS FROM 0 to 1 inclusive:
+std::vector<double> x = linspace(0.0, 1.0, numPoints); 
