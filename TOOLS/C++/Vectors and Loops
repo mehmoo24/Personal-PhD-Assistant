@@ -25,4 +25,5 @@ NOTES:
 element
 
 EQUALLY SPACED POINTS FROM 0 to 1 inclusive:
+NEED TO WRITE OWN LINSPACE FUNC, C++ DOESN'T HAVE IT
 std::vector<double> x = linspace(0.0, 1.0, numPoints); 
