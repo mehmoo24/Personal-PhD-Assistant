@@ -26,6 +26,9 @@ Should give a QUEUED message:
 Bringonline token: c65f2345-fec7-469e-a63a-07ba5e8b898d
 https://fndcadoor.fnal.gov:2880/pnfs/fnal.gov/usr/minerva/archive/users/mateusc/persistent_backup-2021-08-11/mateusc-2021-08-11.tar QUEUED
 
+Check the status with:
+gfal-xattr https://fndcadoor.fnal.gov:2880/pnfs/fnal.gov/usr/minerva/archive/users/mateusc/persistent_backup-2021-08-11/mateusc-2021-08-11.tar
+
 2. Now, can run the script to unarchive or un-tar the files:
 cd /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/
 mkdir TEST
