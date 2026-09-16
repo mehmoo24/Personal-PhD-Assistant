@@ -4,3 +4,29 @@ To archive a particular directory:
 
 To check the usage:
 https://fifemon.fnal.gov/monitor/d/000000175/dcache-persistent-usage-by-vo?orgId=1&var-VO=minerva
+
+**********************************
+TO RECOVER AN ARCHIVED DIRECTORY
+**********************************
+
+1. First STAGE the files
+Need to do the authentication since proxies have been phased out: 
+
+export JOBSUB_AUTH_METHODS="token,proxy"
+export HTGETTOKENOPTS="--credkey=minervapro/managedtokens/fifeutilgpvm01.fnal.gov"
+export X509_USER_PROXY=/opt/minervapro/minervapro.Production.proxy
+and then maybe:
+export GROUP=minerva
+
+THEN running 
+gfal-bringonline https://fndcadoor.fnal.gov:2880/pnfs/fnal.gov/usr/minerva/archive/users/mateusc/persistent_backup-2021-08-11/mateusc-2021-08-11.tar
+
+Should give a QUEUED message:
+
+Bringonline token: c65f2345-fec7-469e-a63a-07ba5e8b898d
+https://fndcadoor.fnal.gov:2880/pnfs/fnal.gov/usr/minerva/archive/users/mateusc/persistent_backup-2021-08-11/mateusc-2021-08-11.tar QUEUED
+
+2. Now, can run the script to unarchive or un-tar the files:
+cd /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/
+mkdir TEST
+. restore_from_tar.sh /pnfs/minerva/archive/users/drimal/persistent_backup-2021-03-31/drimal-2021-04-05.tar /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/TEST
