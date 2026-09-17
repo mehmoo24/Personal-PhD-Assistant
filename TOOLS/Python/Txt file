@@ -1,0 +1,4 @@
+# append will write to the same file or create it if it doesn't exist, the "a" option
+
+with open("myfile.txt", "a") as file:
+    file.write("World\n")
