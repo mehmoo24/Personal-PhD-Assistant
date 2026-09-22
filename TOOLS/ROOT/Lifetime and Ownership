@@ -1,0 +1,6 @@
+If the TFile dies and we still need the root histogram, won't be able to access it any longer. 
+
+This is why calling a separate function with TString filename and asking it to open up the file and read it and return the 
+histo caused the histo to not be usable afterwards when we came out of the function. 
+
+TIP: Don't pass around TString filenames, open up the TFile in the home directory and take out the histograms from it
