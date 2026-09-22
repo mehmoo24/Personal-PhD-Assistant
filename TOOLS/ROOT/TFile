@@ -8,6 +8,9 @@ Python
 C++
 **********
 
+To create a new one:
+TFile* f_out = new TFile("../output/InclusiveXsec_CV.root", "RECREATE");
+
 #include <TFile.h>
 TFile* file = TFile::Open("data.root", "READ");
 
