@@ -1,0 +1,4 @@
+From double to string:
+
+val = 3.14
+std::to_string(val)
