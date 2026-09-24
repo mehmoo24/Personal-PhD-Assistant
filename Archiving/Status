@@ -3,6 +3,7 @@ September 24, 2026
 cd /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/
 mkdir DRIMAL_2026-09-24
 . restore_from_tar.sh /pnfs/minerva/archive/users/drimal/persistent_backup-2021-03-31/drimal-2021-04-05.tar /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/DRIMAL_2026-09-24
+ON GPVM02 we're doing it in screen: 2295456.unarchive	(Detached)
 
 January 28, 2026
 
