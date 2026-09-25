@@ -1,0 +1,26 @@
+Super useful for reading in a .csv file:
+auto f1_Graph = new TGraph(f1FilePath, "%lg,%lg"); // reading floating point numbers from .csv file which is comma separated
+
+and then to get the x-vector we can do:
+// 1. Get the total number of points
+    int n_points = graph->GetN();
+
+    // 2. Get pointers to the internal X and Y arrays
+    double* x_array = graph->GetX();
+    double* y_array = graph->GetY();
+
+
+double x[] = {0, 1, 2, 3, 4};
+double y[] = {1.1, 2.8, 7.2, 12.9, 21.1};
+
+auto gr = new TGraph(5, x, y);
+gr->SetMarkerStyle(20);
+gr->Draw("AP");             // Axes and points
+gr->Fit("pol2");            // Fit and display a quadratic
+
+// Retrieve fitted coefficients and their uncertainties
+auto fit = gr->GetFunction("pol2");
+double p0 = fit->GetParameter(0);
+double p1 = fit->GetParameter(1);
+double p2 = fit->GetParameter(2);
+double p2_error = fit->GetParError(2);
