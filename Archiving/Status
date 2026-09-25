@@ -5,6 +5,9 @@ mkdir DRIMAL_2026-09-24
 . restore_from_tar.sh /pnfs/minerva/archive/users/drimal/persistent_backup-2021-03-31/drimal-2021-04-05.tar /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/DRIMAL_2026-09-24
 ON GPVM02 we're doing it in screen: 2295456.unarchive	(Detached)
 
+Appears to be the case that 51GB untarred so far, but the screen has died on me and so I don't know if it's still untarring? Will continue
+to wait at this point, 2026-09-25
+
 January 28, 2026
 
 --> gpvm02 minervapro
