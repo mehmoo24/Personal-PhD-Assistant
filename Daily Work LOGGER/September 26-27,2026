@@ -2,3 +2,7 @@ Things that were considered / should be revisted
 
 1. There was a compiler error because the source files didn't have a main() and so I needed to copy over the Makefile from
 the project that I had earlier
+
+2. Need to create the f_out pointer outside the class and then initialize the class with the pointer so that can keep 
+returning to it. Or outside the function create the pointer to the output file so that can keep returning it, otherwise
+the pointer will get lost or close when no longer using that function or that object
