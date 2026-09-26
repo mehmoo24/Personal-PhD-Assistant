@@ -5,4 +5,14 @@ the project that I had earlier
 
 2. Need to create the f_out pointer outside the class and then initialize the class with the pointer so that can keep 
 returning to it. Or outside the function create the pointer to the output file so that can keep returning it, otherwise
-the pointer will get lost or close when no longer using that function or that object
+the pointer will get lost or close when no longer using that function or that object. 
+--> A memory leak happening when sending off the files to a class to read and load the objects so just doing it in
+the file that I currently have open 
+
+3. can initialize the radiative correction to null-ptr and it gets passed into create the CrossSection_calculator object
+as long as then don't call the cross-section calculator functions that require a radiative correction, this works well!
+basically need two functions which compute the integral ... really could probably be more generalized, 
+Look into where the integrator is getting called in the matrix
+Decision to make: should the 11 GeV IMD limit be implemented in the matrix or in the nue integrator? i would assume it 
+should be implemented in the matrix code. the integrator should just take the function and integrator it appropriately.
+deciding limits I think shouldn't be happening inside the integrator. 
