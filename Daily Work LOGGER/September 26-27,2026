@@ -1,0 +1,4 @@
+Things that were considered / should be revisted
+
+1. There was a compiler error because the source files didn't have a main() and so I needed to copy over the Makefile from
+the project that I had earlier
