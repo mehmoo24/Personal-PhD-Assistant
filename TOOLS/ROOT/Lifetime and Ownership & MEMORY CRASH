@@ -4,3 +4,9 @@ This is why calling a separate function with TString filename and asking it to o
 histo caused the histo to not be usable afterwards when we came out of the function. 
 
 TIP: Don't pass around TString filenames, open up the TFile in the home directory and take out the histograms from it
+
+PREVENTS MEMORY CRASH:
+H means histogram and 1 means 1D. This command means not to attach the new histograms to the current ROOT directory to manage. ROOT
+automatically attaches the newly created histograms to the current ROOT directory to manage. This command disables that.
+
+TH1::AddDirectory(false); 
