@@ -8,5 +8,6 @@ TIP: Don't pass around TString filenames, open up the TFile in the home director
 PREVENTS MEMORY CRASH:
 H means histogram and 1 means 1D. This command means not to attach the new histograms to the current ROOT directory to manage. ROOT
 automatically attaches the newly created histograms to the current ROOT directory to manage. This command disables that.
+* But then you're responsible for managing the histogram yourself and then deleting it afterwards!
 
 TH1::AddDirectory(false); 
