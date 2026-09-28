@@ -28,3 +28,18 @@ DELIVERABLES:
 --> checked that the Ee distributions are the same
 --> add in IMD
 --> ran the check with the radiative corrections that Kevin provided 
+
+Tuesday, September 29, 2026
+--> Currently have the total xsecs that Kevin sent with the cross section matrix projections from the new framework and approx scaling
+for radiative corrections
+--> Need to finish making those plots
+--> Perhaps better idea to make them include the LO xsecs
+--> THEN need to come up with the radiative corrections using the values that Kevin sent
+--> ALSO need to derive what the IMD xsec will be
+--> THEN incorporate the code for the likelihood values and binomial weights to compute a weight for each universe
+--> --> This should be a module that lets us decide which predictions and measurements we want to be using
+--> Also need the residual plots with the uncertainties on it
+--> Also need the IMD with the predictions that Dan made to see how our predictions are doing
+--> Also need something that would shuffle the code for us
+--> Submit it all to git
+--> Do one hour of coding practice starting October 1
