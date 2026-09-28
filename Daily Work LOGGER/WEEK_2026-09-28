@@ -1,0 +1,20 @@
+Monday September 28, 2026
+GOALS:
+1.5 HOURS
+1. Add check for the singular values with the correlation matrices and run it again
+2. Double check what the resolution was with the bins getting populated now
+3. Send it off 
+4. Check up on archiving and let David know
+
+3.5 HOURS
+5. Fix the machinery with determing how we should be connecting all of the related Ee distributions so that we can add them
+6. Add in IMD and run to see what we get for that
+7. Run the cross-check again to make sure that the Ee distribution is the same as what we were getting before
+8. Add the bit for seeing how we should make the plots with the new radiative correction fixes that came in
+9. Make the plots with the new radiative corrections from Kevin and those are the deliverables
+DELIVERABLES: 
+--> correlation plots
+--> updated machinery with no crash
+--> checked that the Ee distributions are the same
+--> add in IMD
+--> ran the check with the radiative corrections that Kevin provided 
