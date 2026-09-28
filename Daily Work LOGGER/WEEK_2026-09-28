@@ -1,3 +1,12 @@
+IMPORTANT CHECKS FOR FUTURE:
+Theorists Pkg: 
+-> How does the error matrix change when the weights of the universes change? 
+Since the error matrix is what is used to compute the total uncertainty on the flux histograms 
+!!!!!!!!!!!!!!! The flux covariance matrix needs to match the uncertainty that we’re reporting for the flux 
+since I popped off the other error bands so that they won’t contribute to the total uncertainty
+TODO : Check the flux covariance matrix (like not in my analysis but of the flux file) to make sure that it matches what
+I listed as the uncertainty of the flux histogram
+
 Monday September 28, 2026
 GOALS:
 1.5 HOURS
