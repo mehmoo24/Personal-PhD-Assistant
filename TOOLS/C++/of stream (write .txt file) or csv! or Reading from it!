@@ -1,0 +1,43 @@
+#include <fstream>
+
+// Write weights to a txt file
+std::ofstream f_txt("Weights_TotalLogLikelihood.txt");
+
+for (size_t i = 0; i < wgts_totalLogLikelihood.size(); ++i) {
+    f_txt << "Flux " << i << " " << wgts_totalLogLikelihood[i] << '\n';
+}
+
+f_txt.close();
+
+// READING from a file
+
+std::ifstream file(filename);
+std::string line;
+double energy; double y; double xsec;
+
+std::vector<double> x_vec;
+std::vector<double> y_vec;
+
+std::string particleType; std::string energy_str; std::string y_str; std::string xsec_str;
+while (std::getline(file, line)){
+   // we need to turn line into a stream since getline expects a stream
+   std::stringstream ss(line);
+   // line has one entire line from the csv
+   std::getline(ss, particleType, ','); // take characters from a stream and put them in a string until you hit a stopping character
+   std::getline(ss, energy_str, ',');
+   std::getline(ss, y_str, ',');
+   std::getline(ss, xsec_str, ',');
+
+   energy = std::stod(energy_str);
+   y = std::stod(y_str);
+   xsec = std::stod(xsec_str);
+   
+   if (particleType == "numu" && energy == 1){
+      x_vec.push_back(y);
+      y_vec.push_back(xsec);
+   }
+
+} // end while loop
+
+TGraph* tgraph = new TGraph(x_vec.size(), x_vec.data(), y_vec.data());
+return tgraph;
