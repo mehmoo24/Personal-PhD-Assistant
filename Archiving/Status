@@ -1,3 +1,7 @@
+October 6, 2026
+Unarchiving being done here:
+. restore_from_tar.sh /pnfs/minerva/archive/users/drimal/persistent_backup-2021-03-31/drimal-2021-04-05.tar  /pnfs/minerva/scratch/DRIMAL_2026-10-06
+
 September 24, 2026
 --> unarchive Drimal's area after we staged it last week, see the commands document
 cd /exp/minerva/app/users/minervapro/cmtuser/Minerva_v22r1p1/Personal/rodriges/multivolume-tar/
