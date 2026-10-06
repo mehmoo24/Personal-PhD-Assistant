@@ -1,4 +1,5 @@
 October 6, 2026
+in screen on gpvm02 as minervapro, screen -r unarchive
 Unarchiving being done here:
 . restore_from_tar.sh /pnfs/minerva/archive/users/drimal/persistent_backup-2021-03-31/drimal-2021-04-05.tar  /pnfs/minerva/scratch/DRIMAL_2026-10-06
 
