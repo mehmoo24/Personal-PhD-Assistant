@@ -1,4 +1,6 @@
 #include <fstream>
+#include <sstream>
+
 
 // Write weights to a txt file
 std::ofstream f_txt("Weights_TotalLogLikelihood.txt");
@@ -21,7 +23,7 @@ std::vector<double> y_vec;
 std::string particleType; std::string energy_str; std::string y_str; std::string xsec_str;
 while (std::getline(file, line)){
    // we need to turn line into a stream since getline expects a stream
-   std::stringstream ss(line);
+   std::stringstream ss(line); // NEED: #include <sstream>
    // line has one entire line from the csv
    std::getline(ss, particleType, ','); // take characters from a stream and put them in a string until you hit a stopping character
    std::getline(ss, energy_str, ',');
