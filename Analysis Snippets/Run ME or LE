@@ -8,3 +8,12 @@ For Running LE:
 --> Change the flux to be 1 for electron neutrinos or antineutrinos
 --> In MnvHadronReweighter.cxx change the playlist name to be ME1A or ME6A
 --> In GlobalIncludes change the boolean
+
+
+Here's what I learned from Quinn for running over LE:
+--> The playlists that I'm running over should've been P8, double check whether there is P9 for LE yet
+--> For the Hadron files she has something that she has created using scripts but that is for P8 and can run again to get
+what the weights should be for P9, but if use the script that is better than manually switching in MnvHadronReweighter
+for the ME1A and ME6A files
+--> LE electron flux files, need to use the ones that Quinn has and then shouldn't be using a flux weight of 1 for the
+electron neutrinos
