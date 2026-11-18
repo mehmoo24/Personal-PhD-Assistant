@@ -1,0 +1,13 @@
+TLatex latex;
+latex.SetNDC();              // Use normalized coordinates (0.0 to 1.0)
+latex.SetTextSize(0.04);     // Set font size (4% of canvas height)
+latex.SetTextFont(42);       // Standard clean Helvetica font
+
+// 3. Format your numbers into a string using Form() and draw them
+double mean = h->GetMean();
+double rms  = h->GetRMS();
+
+latex.DrawLatex(0.60, 0.80, Form("Mean = %.3f", mean));
+latex.DrawLatex(0.60, 0.74, Form("RMS = %.3f", rms));
+
+c1->Update();
