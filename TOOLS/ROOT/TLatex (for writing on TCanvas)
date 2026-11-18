@@ -10,4 +10,10 @@ double rms  = h->GetRMS();
 latex.DrawLatex(0.60, 0.80, Form("Mean = %.3f", mean));
 latex.DrawLatex(0.60, 0.74, Form("RMS = %.3f", rms));
 
+// Outputs: "Mean = 1.23e-04"
+latex.DrawLatex(0.60, 0.80, Form("Mean = %.2e", val));
+
+// Use %% inside Form() to display a single %
+latex.DrawLatex(0.60, 0.80, Form("Purity = %.1f%%", purity));
+
 c1->Update();
