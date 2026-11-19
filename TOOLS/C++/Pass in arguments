@@ -1,0 +1,8 @@
+#include <iostream>
+
+int main (int count, char* arguments[]){
+
+  # the program name is at arguments[0]
+  std::cout << "The first input is: " << arguments[1]  << std::endl;
+ 
+}
