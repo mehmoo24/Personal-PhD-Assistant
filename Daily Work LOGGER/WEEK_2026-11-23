@@ -1,3 +1,9 @@
+UNDO the changes that made for Quinn
+Turn on NuE in all hte files
+Turn sys back on 
+covert back to neutrino mode
+in GetWEight adn GetTRuthWEight turn on teh lownu flux param again. 
+
 Weekly Goals
 --> Learn how to write root histogram to csv
 DONE !!! --> Get LO result to match what Quinn is getting 
