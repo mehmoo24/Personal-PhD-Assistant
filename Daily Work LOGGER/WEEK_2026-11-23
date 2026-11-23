@@ -3,6 +3,7 @@ Turn on NuE in all hte files
 Turn sys back on 
 covert back to neutrino mode
 in GetWEight adn GetTRuthWEight turn on teh lownu flux param again. 
+. gridSubmit.sh false -14 MnvTunev1_RHC_ME6A_NoNuEIMDLownu_2026-11-23
 
 Weekly Goals
 --> Learn how to write root histogram to csv
@@ -12,7 +13,7 @@ DONE !!! --> Get LO result to match what Quinn is getting
     ==>> We don't need the angle cut, understand again how come that is?
 --> Understand what GetFluxAndCVWeight returns
     ==>> GetFluxCVWeight on page 12 of Deepika's technote
-*** --> Running over what Quinn requested 
+*** --> Running over what Quinn requested, process and send her the plots
 *** --> Run study for different z cuts for the apothem study (Deborah's email)
 --> Look over email threads, especially Friday November 20 (from Laura, David)
 --> Look over Quinn's slack as well
