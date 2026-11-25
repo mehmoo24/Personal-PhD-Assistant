@@ -1,7 +1,11 @@
 FINDINGS
 --> the mean is off from the CV, from 0.5-1% for integrated flux and integrated ee distributions: a FIX that needs to
 be implemented for that
-
+--> the mean is off from the CV, from 0.5-1% for integrated flux and integrated ee distributions: a FIX that needs to
+be implemented for that
+--> Anežka double applied lownu weight ... asked her, waiting for reply
+--> some cuts that Tae-jin is looking into, waiting for findings
+--> the xsec matrix plot discussed as potentially making sense
 
 -> Add the one line to the plots Deborah said and send those to her
 -> Send Quinn the plots and reverse the changes
