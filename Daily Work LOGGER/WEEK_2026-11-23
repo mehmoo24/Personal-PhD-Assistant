@@ -1,4 +1,5 @@
 FINDINGS
+--> Need to look into: the error on my Ee bins is 0, Valencia result has uncertainty: /exp//minerva/data/users/lzazueta/AntiNuE/DeepikaMc_LauraData_Mnv.root
 --> the mean is off from the CV, from 0.5-1% for integrated flux and integrated ee distributions: a FIX that needs to
 be implemented for that
 --> the mean is off from the CV, from 0.5-1% for integrated flux and integrated ee distributions: a FIX that needs to
