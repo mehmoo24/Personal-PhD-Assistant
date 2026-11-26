@@ -30,8 +30,8 @@ CHANGES TO UNDO: submit the second case of the apothem study for hte second z ve
 TrueTracker cut!
 
  5980. && cv->GetVecElem("mc_vtx",2) <= 8422.
-5980 to 7201
-7201 to 8422
+5980 to 7201 RAN THIS CASE
+7201 to 8422 - didn't run this case
 
 Weekly Goals
 --> Learn how to write root histogram to csv
