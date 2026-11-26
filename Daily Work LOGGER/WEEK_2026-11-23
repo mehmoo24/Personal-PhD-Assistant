@@ -24,6 +24,14 @@ Turn sys back on
 covert back to neutrino mode
 in GetWEight adn GetTRuthWEight turn on teh lownu flux param again. 
 . gridSubmit.sh false -14 MnvTunev1_RHC_ME6A_NoNuEIMDLownu_2026-11-23
+UNDID the changes: 2026-11-26
+
+CHANGES TO UNDO: submit the second case of the apothem study for hte second z vertex and THEN switch back the
+TrueTracker cut!
+
+ 5980. && cv->GetVecElem("mc_vtx",2) <= 8422.
+5980 to 7201
+7201 to 8422
 
 Weekly Goals
 --> Learn how to write root histogram to csv
